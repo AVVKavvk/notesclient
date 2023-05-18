@@ -1,0 +1,260 @@
+ <div class="mt-8 p-1 w-[650px] flex justify-center items-center hover:scale-110 transition-all duration-1000   shadow-2xl rounded-xl text-center">
+        <a
+          href="https://drive.google.com/file/d/1C-he-morVvaTzZXPx97mzwBRss11BqGi/view?usp=share_link"
+          target="_blank"
+        >
+          <div class="relative flex justify-center items-center   ">
+            <svg
+              viewBox="0 0 349.32501220703125 225"
+              xmlns="http://www.w3.org/2000/svg"
+              class="stroke-1 stroke-[#eeeff4] h-[80%] w-[80%]  relative -z-10  transition-all duration-200"
+              //  style="stroke-opacity:0.15"
+              {...{ strokeOpacity: 0.15 }}
+            >
+              <path
+                d="
+             m 0 6
+             a 6 6 0 0 1 6 -6 
+             h 250.32501220703125
+             a 16 16 0 0 1 11 5 
+             l 77 77 
+             a 16 16 0 0 1 5 11 
+             v 126
+             a 6 6 0 0 1 -6 6 
+             h -337.32501220703125
+             a 6 6 0 0 1 -6 -6 
+             z"
+                fill="#ffff00"
+              ></path>
+            </svg>
+            <h1 class="absolute z-10 text-4xl cursor-pointer ">PRP</h1>
+          </div>
+        </a>
+        <div>
+        <a href="https://www.iiitp.ac.in/page/dr-chandrakant-narayan-guled" target="_blank">
+
+            <h1 class=" text-3xl shadow-xl p-1 border  rounded-md  px-3  cursor-pointer  ">
+              <span class="text-green-600 underline font-mullish decoration-dotted  ">
+              Chandrakant Sir
+              </span>
+            </h1>
+        </a>
+          
+        </div>
+      </div>
+      <div class="mt-8 p-1 w-[650px] flex justify-center items-center hover:scale-110 transition-all duration-1000   shadow-2xl rounded-xl text-center">
+        <a
+          href="https://drive.google.com/file/d/1r6y42Q7BtqgovGR5z6UHpRcvjzI_UVDJ/view?usp=share_link"
+          target="_blank"
+        >
+          <div class="relative flex justify-center items-center   ">
+            <svg
+              viewBox="0 0 349.32501220703125 225"
+              xmlns="http://www.w3.org/2000/svg"
+              class="stroke-1 stroke-[#eeeff4] h-[80%] w-[80%]  relative -z-10  transition-all duration-200"
+              //  style="stroke-opacity:0.15"
+              {...{ strokeOpacity: 0.15 }}
+            >
+              <path
+                d="
+             m 0 6
+             a 6 6 0 0 1 6 -6 
+             h 250.32501220703125
+             a 16 16 0 0 1 11 5 
+             l 77 77 
+             a 16 16 0 0 1 5 11 
+             v 126
+             a 6 6 0 0 1 -6 6 
+             h -337.32501220703125
+             a 6 6 0 0 1 -6 -6 
+             z"
+                fill="#ffff00"
+              ></path>
+            </svg>
+            <h1 class="absolute z-10 text-4xl cursor-pointer ">TOC</h1>
+          </div>
+        </a>
+        <div>
+          <a href="https://www.iiitp.ac.in/page/dr-amruta-vishnu-lipare-0" target="_blank"> 
+            <h1 class=" text-3xl shadow-xl p-1 border  rounded-md  px-3  cursor-pointer  ">
+              <span class="text-green-600 underline font-mullish decoration-dotted  ">
+                Amruta Mam
+              </span>
+            </h1>
+          </a>
+        </div>
+      </div>
+      <div class="mt-8 p-1 w-[650px] flex justify-center items-center hover:scale-110 transition-all duration-1000   shadow-2xl rounded-xl text-center">
+        <a
+          href="https://drive.google.com/file/d/1BfwZn4qR2zpJx2Hywg4Pvh44ZaMD1K-N/view?usp=share_link"
+          target="_blank"
+        >
+          <div class="relative flex justify-center items-center   ">
+            <svg
+              viewBox="0 0 349.32501220703125 225"
+              xmlns="http://www.w3.org/2000/svg"
+              class="stroke-1 stroke-[#eeeff4] h-[80%] w-[80%]  relative -z-10  transition-all duration-200"
+              //  style="stroke-opacity:0.15"
+              {...{ strokeOpacity: 0.15 }}
+            >
+              <path
+                d="
+             m 0 6
+             a 6 6 0 0 1 6 -6 
+             h 250.32501220703125
+             a 16 16 0 0 1 11 5 
+             l 77 77 
+             a 16 16 0 0 1 5 11 
+             v 126
+             a 6 6 0 0 1 -6 6 
+             h -337.32501220703125
+             a 6 6 0 0 1 -6 -6 
+             z"
+                fill="#ffff00"
+              ></path>
+            </svg>
+            <h1 class="absolute z-10 text-4xl cursor-pointer ">AADA</h1>
+          </div>
+        </a>
+        <div>
+        
+            <h1 class=" text-3xl shadow-xl p-1 border  rounded-md  px-3  ">
+              <span class="text-green-600 underline font-mullish decoration-dotted  ">
+               Saif Sir
+              </span>
+            </h1>
+          
+        </div>
+      </div>
+      <div class="mt-8 p-1 w-[650px] flex justify-center items-center hover:scale-110 transition-all duration-1000   shadow-2xl rounded-xl text-center">
+        <a
+          href="https://drive.google.com/file/d/1fDFQuvAqtRTMS9iQsSGtFZR2VlcJyZKn/view?usp=share_link"
+          target="_blank"
+        >
+          <div class="relative flex justify-center items-center   ">
+            <svg
+              viewBox="0 0 349.32501220703125 225"
+              xmlns="http://www.w3.org/2000/svg"
+              class="stroke-1 stroke-[#eeeff4] h-[80%] w-[80%]  relative -z-10  transition-all duration-200"
+              //  style="stroke-opacity:0.15"
+              {...{ strokeOpacity: 0.15 }}
+            >
+              <path
+                d="
+             m 0 6
+             a 6 6 0 0 1 6 -6 
+             h 250.32501220703125
+             a 16 16 0 0 1 11 5 
+             l 77 77 
+             a 16 16 0 0 1 5 11 
+             v 126
+             a 6 6 0 0 1 -6 6 
+             h -337.32501220703125
+             a 6 6 0 0 1 -6 -6 
+             z"
+                fill="#ffff00"
+              ></path>
+            </svg>
+            <h1 class="absolute z-10 text-4xl cursor-pointer ">Python</h1>
+          </div>
+        </a>
+        <div>
+        <a href="https://www.iiitp.ac.in/page/dr-bhupendra-singh" target="_blank">
+
+            <h1 class=" text-3xl shadow-xl p-1 border  rounded-md  px-3  cursor-pointer  ">
+              <span class="text-green-600 underline font-mullish decoration-dotted  ">
+              Bhupendra Sir
+              </span>
+            </h1>
+        </a>
+          
+        </div>
+      </div>
+      <div class="mt-8 p-1 w-[650px] flex justify-center items-center hover:scale-110 transition-all duration-1000   shadow-2xl rounded-xl text-center">
+        <a
+          href="https://drive.google.com/file/d/1UB-ZN5-0Re7YJsvZJAdJTbpYH1OtWQol/view?usp=share_link"
+          target="_blank"
+        >
+          <div class="relative flex justify-center items-center   ">
+            <svg
+              viewBox="0 0 349.32501220703125 225"
+              xmlns="http://www.w3.org/2000/svg"
+              class="stroke-1 stroke-[#eeeff4] h-[80%] w-[80%]  relative -z-10  transition-all duration-200"
+              //  style="stroke-opacity:0.15"
+              {...{ strokeOpacity: 0.15 }}
+            >
+              <path
+                d="
+             m 0 6
+             a 6 6 0 0 1 6 -6 
+             h 250.32501220703125
+             a 16 16 0 0 1 11 5 
+             l 77 77 
+             a 16 16 0 0 1 5 11 
+             v 126
+             a 6 6 0 0 1 -6 6 
+             h -337.32501220703125
+             a 6 6 0 0 1 -6 -6 
+             z"
+                fill="#ffff00"
+              ></path>
+            </svg>
+            <h1 class="absolute z-10 text-4xl cursor-pointer ">DBMS</h1>
+          </div>
+        </a>
+        <div>
+        <a href="https://www.iiitp.ac.in/page/dr-sanjeev-sharma" target="_blank">
+
+            <h1 class=" text-3xl shadow-xl p-1 border  rounded-md  px-3  cursor-pointer  ">
+              <span class="text-green-600 underline font-mullish decoration-dotted  ">
+              Sanjeev Sir
+              </span>
+            </h1>
+        </a>
+          
+        </div>
+      </div>
+      <div class="mt-8 p-1 w-[650px] flex justify-center items-center hover:scale-110 transition-all duration-1000   shadow-2xl rounded-xl text-center">
+        <a
+          href="https://drive.google.com/file/d/1YFRCaOMjqXBAhQvGeS7IbJ4u4gi-9Urm/view?usp=share_link"
+          target="_blank"
+        >
+          <div class="relative flex justify-center items-center   ">
+            <svg
+              viewBox="0 0 349.32501220703125 225"
+              xmlns="http://www.w3.org/2000/svg"
+              class="stroke-1 stroke-[#eeeff4] h-[80%] w-[80%]  relative -z-10  transition-all duration-200"
+              //  style="stroke-opacity:0.15"
+              {...{ strokeOpacity: 0.15 }}
+            >
+              <path
+                d="
+             m 0 6
+             a 6 6 0 0 1 6 -6 
+             h 250.32501220703125
+             a 16 16 0 0 1 11 5 
+             l 77 77 
+             a 16 16 0 0 1 5 11 
+             v 126
+             a 6 6 0 0 1 -6 6 
+             h -337.32501220703125
+             a 6 6 0 0 1 -6 -6 
+             z"
+                fill="#ffff00"
+              ></path>
+            </svg>
+            <h1 class="absolute z-10 text-4xl cursor-pointer ">COA</h1>
+          </div>
+        </a>
+        <div>
+        <a href="https://www.iiitp.ac.in/page/dr-priyank-sharma" target="_blank">
+
+            <h1 class=" text-3xl shadow-xl p-1 border  rounded-md  px-3  cursor-pointer  ">
+              <span class="text-green-600 underline font-mullish decoration-dotted  ">
+              Priyank Sir
+              </span>
+            </h1>
+        </a>
+          
+        </div>
+      </div>
