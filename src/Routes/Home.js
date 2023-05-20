@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import imgsecctio1 from "../image/book1.svg";
 import imgsecctio2 from "../image/book2.svg";
 import imgsecctio3 from "../image/pencil.svg";
@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 
 import { getItem } from "../utils/localStorage";
 import { Key_Access_Token } from "../utils/localStorage";
-import { axiosClient } from "../utils/axiosClient";
+
 import img1 from "../image/logo.svg";
 import img2 from "../image/logo1.svg";
 import img3 from "../image/logo2.svg";
@@ -23,8 +23,8 @@ import n4 from "../image/notes4.svg";
 import { useSelector } from "react-redux";
 function Home() {
   const count = useSelector((state) => state.appConfigReducer.count);
-console.log(count);
-
+  console.log(count);
+  const a = getItem(Key_Access_Token);
   return (
     <>
       <div class="    mt-6">
@@ -156,30 +156,39 @@ console.log(count);
             </p>
           </div>
         </div>
-        <div class="flex lg:hidden text-xl mx-4 justify-center items-center mt-10 sm:mx-auto flex-col rounded-md max-w-[500px]   border-2 m-5 border-blue-500">
-          <h1 class="text-xl m-4 text-deepBlue">
-            For Accessing this page please do following steps
-          </h1>
-          <h1 class="m-1 p-2 ">
-            Already have account
-            <Link
-              to="/auth/login"
-              class="bg-blue-700 p-2 m-2 px-2 text-lg rounded-md text-white mb-3 hover:bg-blue-500 transition-all duration-200 "
-            >
-              Login
-            </Link>
-          </h1>
-
-          <h1 class="m-1 p-2 ">
-            Do not have account{" "}
-            <Link
-              to="/auth/signup"
-              class="bg-blue-700 p-2 m-1 px-2 text-lg rounded-md text-white mb-3 hover:bg-blue-500 transition-all duration-200 "
-            >
-              SignUp
-            </Link>
-          </h1>
-        </div>
+        <>
+          {a ? (
+            " "
+          ) : (
+            <div class="flex lg:hidden text-xl mx-4 justify-center items-center mt-10 sm:mx-auto flex-col rounded-md max-w-[500px]   border-2 m-5 border-blue-500">
+              <h1 class="text-xl m-4 text-deepBlue">
+                For Accessing this page please do following steps
+              </h1>
+              {a ? (
+                " "
+              ) : (
+                <h1 class="m-1 p-2 ">
+                  Already have account
+                  <Link
+                    to="/auth/login"
+                    class="bg-blue-700 p-2 m-2 px-2 text-lg rounded-md text-white mb-3 hover:bg-blue-500 transition-all duration-200 "
+                  >
+                    Login
+                  </Link>
+                </h1>
+              )}
+              <h1 class="m-1 p-2 ">
+                Do not have account{" "}
+                <Link
+                  to="/auth/signup"
+                  class="bg-blue-700 p-2 m-1 px-2 text-lg rounded-md text-white mb-3 hover:bg-blue-500 transition-all duration-200 "
+                >
+                  SignUp
+                </Link>
+              </h1>
+            </div>
+          )}
+        </>
       </div>
 
       <div class="lg:flex hidden mb-28  ">
@@ -194,30 +203,38 @@ console.log(count);
             </p>
           </div>
         </div>
-        <div class="flex text-xl mx-4 justify-center items-center mt-10 sm:mx-auto flex-col rounded-md max-w-[500px]   border-2 m-5 border-blue-500">
-          <h1 class="text-xl m-4 text-deepBlue">
-            For Accessing this page please do following steps
-          </h1>
-          <h1 class="m-1 p-2 ">
-            Already have account
-            <Link
-              to="/auth/login"
-              class="bg-blue-700 p-2 m-2 px-5 text-lg rounded-md text-white mb-3 hover:bg-blue-500 transition-all duration-200 "
-            >
-              Login
-            </Link>
-          </h1>
 
-          <h1 class="m-1 p-2 ">
-            Do not have account{" "}
-            <Link
-              to="/auth/signup"
-              class="bg-blue-700 p-2 m-2 px-5 text-lg rounded-md text-white mb-3 hover:bg-blue-500 transition-all duration-200 "
-            >
-              SignUp
-            </Link>
-          </h1>
-        </div>
+        <>
+          {a ? (
+            ""
+          ) : (
+            <div class="flex text-xl mx-4 justify-center items-center mt-10 sm:mx-auto flex-col rounded-md max-w-[500px]   border-2 m-5 border-blue-500">
+              <h1 class="text-xl m-4 text-deepBlue">
+                For Accessing this page please do following steps
+              </h1>
+
+              <h1 class="m-1 p-2 ">
+                Already have account
+                <Link
+                  to="/auth/login"
+                  class="bg-blue-700 p-2 m-2 px-5 text-lg rounded-md text-white mb-3 hover:bg-blue-500 transition-all duration-200 "
+                >
+                  Login
+                </Link>
+              </h1>
+
+              <h1 class="m-1 p-2 ">
+                Do not have account{" "}
+                <Link
+                  to="/auth/signup"
+                  class="bg-blue-700 p-2 m-2 px-5 text-lg rounded-md text-white mb-3 hover:bg-blue-500 transition-all duration-200 "
+                >
+                  SignUp
+                </Link>
+              </h1>
+            </div>
+          )}
+        </>
       </div>
     </>
   );

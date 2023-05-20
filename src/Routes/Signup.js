@@ -20,7 +20,7 @@ function Signup() {
   function isValidEmail(email) {
     return /\S+@\S+\.\S+/.test(email);
   }
-  useEffect (()=>{
+  useEffect(() => {
     if (!isValidEmail(email)) {
       setError("Email is invalid");
     } else {
@@ -33,10 +33,10 @@ function Signup() {
     }
     // console.log(err);
     // console.log(err1);
-  },[email,number])
+  }, [email, number]);
   async function handleSignup(e) {
     e.preventDefault();
-   
+
     if (err === "a" && err1 == "a") {
       try {
         const result = await axiosClient.post("/auth/signup", {
@@ -82,15 +82,14 @@ function Signup() {
           })
         );
       }
-      if(err1!="a"){
-
+      if (err1 != "a") {
         dispatch(
           showToast({
             type: TOAST_ERROR,
             message: `${err1}`,
           })
-          );
-        }
+        );
+      }
     }
     // console.log(error);
   }
@@ -117,6 +116,21 @@ function Signup() {
           }}
           autoComplete="off"
         >
+          <Form.Item
+            label="Name"
+            name="name"
+            rules={[
+              {
+                required: true,
+                message: "Please input your Name!",
+              },
+            ]}
+          >
+            <Input
+              placeholder="vipin"
+              onChange={(e) => setname(e.target.value)}
+            />
+          </Form.Item>
           <Form.Item
             label="email"
             name="email"
@@ -153,7 +167,6 @@ function Signup() {
           <Form.Item
             label="Phone Number"
             name="phNo"
-           
             rules={[
               {
                 required: true,
@@ -164,21 +177,6 @@ function Signup() {
             <Input.Password
               placeholder="+91810709...."
               onChange={(e) => setnumber(e.target.value)}
-            />
-          </Form.Item>
-          <Form.Item
-            label="Name"
-            name="name"
-            rules={[
-              {
-                required: true,
-                message: "Please input your Name!",
-              },
-            ]}
-          >
-            <Input.Password
-              placeholder="vipin"
-              onChange={(e) => setname(e.target.value)}
             />
           </Form.Item>
 

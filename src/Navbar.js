@@ -1,8 +1,24 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import menu from "./image/menu.svg";
 import { Dropdown } from "antd";
+import { Key_Access_Token, count_User, getItem } from "./utils/localStorage";
+import { useSelector } from "react-redux";
+
 function Navbar() {
+  const a = getItem(Key_Access_Token);
+  var b = useSelector((state) => state.appConfigReducer.count);
+  var count = 1;
+  if (b == 0) {
+    count = getItem(count_User);
+  } else {
+    count = b;
+  }
+  console.log("vipin", count);
+  useEffect(() => {
+    count = getItem(count_User);
+  }, [count]);
+
   const items = [
     {
       key: "1",
@@ -56,9 +72,8 @@ function Navbar() {
           placement="bottomLeft"
           arrow={{
             pointAtCenter: true,
-
           }}
-        style={{height:"10px"}}
+          style={{ height: "10px" }}
         >
           <button class="">
             {" "}
@@ -67,16 +82,24 @@ function Navbar() {
         </Dropdown>
         <div>
           <ul class="flex sm:hidden justify-center items-center text-white gap-4 px-3">
-            <li class="hover:underline   p-2 rounded-md transition-all duration-500">
-              <Link to="/auth/login" style={{ textDecoration: "none" }}>
-                Login
-              </Link>
-            </li>
+          <>
+            {a ? (
+              <div class=" text-2xl flex justify-center items-center "> Unique Visitor  <span class="text-4xl ml-4">{count} </span></div>
+            ) : (
+              <>
+              <li class="hover:underline hover:bg-green-600  p-2 rounded-md transition-all duration-500">
+                <Link to="/auth/login" style={{ textDecoration: "none" }}>
+                  Login
+                </Link>
+              </li>
             <li class="hover:underline   p-2 rounded-md transition-all duration-500">
               <Link to="/auth/signup" style={{ textDecoration: "none" }}>
                 SignUp
               </Link>
             </li>
+            </>
+              )}
+          </>
           </ul>
         </div>
       </div>
@@ -113,16 +136,24 @@ function Navbar() {
         </ul>
 
         <ul class="sm:flex hidden justify-center items-center gap-4 px-3">
-          <li class="hover:underline hover:bg-green-600  p-2 rounded-md transition-all duration-500">
-            <Link to="/auth/login" style={{ textDecoration: "none" }}>
-              Login
-            </Link>
-          </li>
-          <li class="hover:underline hover:bg-green-600  p-2 rounded-md transition-all duration-500">
-            <Link to="/auth/signup" style={{ textDecoration: "none" }}>
-              SignUp
-            </Link>
-          </li>
+        <>
+            {a ? (
+              <div class=" text-2xl flex justify-center items-center "> Unique Visitor  <span class="text-4xl ml-4">{count} </span></div>
+            ) : (
+              <>
+              <li class="hover:underline hover:bg-green-600  p-2 rounded-md transition-all duration-500">
+                <Link to="/auth/login" style={{ textDecoration: "none" }}>
+                  Login
+                </Link>
+              </li>
+            <li class="hover:underline   p-2 rounded-md transition-all duration-500">
+              <Link to="/auth/signup" style={{ textDecoration: "none" }}>
+                SignUp
+              </Link>
+            </li>
+            </>
+              )}
+          </>
         </ul>
       </div>
     </div>

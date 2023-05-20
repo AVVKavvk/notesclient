@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Button, Checkbox, Form, Input } from "antd";
 import men from "../image/men.png";
 import { Link, useNavigate } from "react-router-dom";
 import { axiosClient } from "../utils/axiosClient";
-import { Key_Access_Token, countUser, setItem } from "../utils/localStorage";
+import { Key_Access_Token, countUser, count_User, setItem } from "../utils/localStorage";
 import { useDispatch } from "react-redux";
 import { setcount, showToast } from "../slice/appConfigSlice";
 import { TOAST_SUCCESS } from "../App";
@@ -12,7 +12,7 @@ function Login() {
   const [email, setemail] = useState("");
   const [password, setpassword] = useState("");
   const dispatch = useDispatch();
-
+  // const [count, setcount1] = useState(0);
   async function submitHandle(e) {
     e.preventDefault();
 
@@ -33,15 +33,17 @@ function Login() {
         navigate("/");
       }
     } catch (e) {
-      // console.log(process.env.REACT_APP_SERVER_BASE_URL);
-      // console.log(e);
+      
+      console.log(e);
     }
   }
+
   async function countU() {
     try {
       const result = await axiosClient.get("/auth/count");
-      dispatch(setcount(result.result));
-      
+    //  countUser(count_User , result.result)
+    dispatch(setcount(result.result));
+    setItem(count_User, result.result)
     } catch (e) {
       // console.log(process.env.REACT_APP_SERVER_BASE_URL);
       // console.log(e);
@@ -131,14 +133,14 @@ function Login() {
           </Form.Item>
         </Form>
         <h1 class="m-1 p-2 ">
-            Do not have account{" "}
-            <Link
-              to="/auth/signup"
-              class="bg-blue-700 p-2 m-1 px-2 text-xl rounded-md text-white mb-3 hover:bg-blue-600 transition-all duration-200 "
-            >
-              SignUp
-            </Link>
-          </h1>
+          Do not have account{" "}
+          <Link
+            to="/auth/signup"
+            class="bg-blue-700 p-2 m-1 px-2 text-xl rounded-md text-white mb-3 hover:bg-blue-600 transition-all duration-200 "
+          >
+            SignUp
+          </Link>
+        </h1>
       </div>
     </div>
   );

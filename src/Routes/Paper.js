@@ -1,15 +1,25 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link, Outlet, useNavigate } from "react-router-dom";
 import { Key_Access_Token, getItem } from "../utils/localStorage";
 
 function Paper() {
-  const a = getItem(Key_Access_Token);
+  var a = 10;
+
+  useEffect(() => {}, [a]);
+
+  a = getItem(Key_Access_Token);
   // const a = 10;
-  const navigate=useNavigate();
+  function AA() {
+    console.log("vipin");
+    setTimeout(() => {
+      navigate("/auth/login");
+    }, 100);
+  }
+  const navigate = useNavigate();
   // console.log(a);
   return (
     <>
-      {a ? (
+      {(a!=10 && a!=undefined) ? (
         <div class="grid  grid-cols-2 sm:grid-cols-3  lg:grid-cols-6 mt-6 justify-center items-center mx-auto space-x-4 sm:space-x-10 lg:mt-2 sm:space-y-8  max-w-[1200px]  space-y-6  ">
           <Link to="/user/paper/sem1">
             <div class="w-[150px] p-1 h-[20px] text-xl rounded-lg items-center text-center mt-5 gap-4 ml-4 sm:ml-10  sm:mt-7 lg:mt-9 justify-center flex bg-green-200">
@@ -63,7 +73,7 @@ function Paper() {
           <Outlet />
         </div>
       ) : (
-       navigate('/auth/login')
+        <div>{AA()}</div>
       )}
     </>
   );
