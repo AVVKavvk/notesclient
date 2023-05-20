@@ -2,7 +2,7 @@ import React from 'react'
 import ll from '../image/p3.svg'
 function Sem3() {
   return (
-    <div class=" w-[1000px] grid hei  grid-cols-3 relative gap-2 pt-4 space-y-5 mt-8 overflow-hidden">
+    <div class=" sm:w-[500px]  md:w-[650px] md:p-6 grid grid-cols-1  sm:grid-cols-3  md:h-[400px] relative gap-2 pt-4 w-[200px]  space-y-2 sm:space-x-8 sm:space-y-5 mt-8 overflow-hidden">
     <div class="relative flex flex-col  justify-center items-center text-center  w-full h-[250px] space-x-16  px-5 ">
       <div>
       <a

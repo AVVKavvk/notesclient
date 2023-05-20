@@ -5,6 +5,15 @@
 .moverovers{
   animation: 10s infinite linear moveCompany;
 }
+body{
+  /* background-color: #00FF52; */
+  background-image: linear-gradient(to right, #b6fbff, #97cef2);
+  /* background-image: linear-gradient(to right top, #5e535b, #6a596c, #73607f, #766995, #7274ac, #617bb5, #4b83bd, #2a8ac1, #008cb3, #078ca3, #288a92, #3f8882); */
+  /* background-image: linear-gradient(to right top, #e8e3e6, #e5dbe4, #dfd4e4, #d5cee5, #c8c9e7, #bfcbeb, #b5cdee, #aad0ef, #a7d9f1, #a7e1f1, #abe8ef, #b3efec); */
+  font-family: 'Ubuntu', sans-serif;
+  
+}
+
 
 @keyframes moveCompany {
   0%{

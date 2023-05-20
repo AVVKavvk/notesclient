@@ -2,9 +2,9 @@ import React from 'react'
 import ll from '../image/logo2.svg'
 function Sem1() {
   return (
-    <div class=" w-[1000px] grid  grid-cols-1 relative gap-2 pt-4 space-y-5 mt-8 overflow-hidden">
-      <div class="relative flex  w-full h-[100px] space-x-16  px-5 ">
-        <div>
+    <div class=" lg:w-[1200px] grid sm:grid-cols-3 grid-cols-2 space-y-5 lg:space-y-0 ml-6 lg:mx-auto lg:grid-cols-7 relative  justify-evenly  mt-8 overflow-hidden">
+      <div class="relative flex flex-col p-0 mt-[20px] lg:mt-0 space-x-6 space-y-3   ">
+        <div class="h-[120px]" >
           <svg
             viewBox="0 0 349.32501220703125 225"
             xmlns="http://www.w3.org/2000/svg"
@@ -40,10 +40,11 @@ function Sem1() {
             <img src={ll} alt=""  class="hover:scale-110 transition-all duration-500" height="100px"  width="100px"  />
           </div>
         </a>
+       
         
       </div>
-      <div class="relative flex  w-full h-[100px] space-x-16  px-5 ">
-        <div>
+      <div class="relative flex  flex-col w-full  space-x-6  ">
+        <div class="h-[120px]">
           <svg
             viewBox="0 0 349.32501220703125 225"
             xmlns="http://www.w3.org/2000/svg"
@@ -68,7 +69,7 @@ function Sem1() {
             ></path>
           </svg>
           <h1 class="absolute z-10 top-[30px] left-[50px] text-2xl  ">
-            BE
+            BEE
           </h1>
         </div>
         <a
@@ -81,8 +82,8 @@ function Sem1() {
         </a>
         
       </div>
-      <div class="relative flex  w-full h-[100px] space-x-16  px-5 ">
-        <div>
+      <div class="relative flex flex-col  w-full  space-x-6   ">
+        <div class="h-[120px]">
           <svg
             viewBox="0 0 349.32501220703125 225"
             xmlns="http://www.w3.org/2000/svg"
@@ -120,8 +121,8 @@ function Sem1() {
         </a>
         
       </div>
-      <div class="relative flex  w-full h-[100px] space-x-16  px-5 ">
-        <div>
+      <div class="relative flex  flex-col w-full  space-x-6   ">
+        <div class="h-[120px]">
           <svg
             viewBox="0 0 349.32501220703125 225"
             xmlns="http://www.w3.org/2000/svg"
@@ -146,7 +147,7 @@ function Sem1() {
             ></path>
           </svg>
           <h1 class="absolute z-10 top-[30px] left-[40px] text-2xl  ">
-            FCS
+            FoCS
           </h1>
         </div>
         <a
@@ -159,8 +160,8 @@ function Sem1() {
         </a>
         
       </div>
-      <div class="relative flex  w-full h-[100px] space-x-16  px-5 ">
-        <div>
+      <div class="relative flex flex-col w-full  space-x-6   ">
+        <div class="h-[120px]">
           <svg
             viewBox="0 0 349.32501220703125 225"
             xmlns="http://www.w3.org/2000/svg"
@@ -198,8 +199,8 @@ function Sem1() {
         </a>
         
       </div>
-      <div class="relative flex  w-full h-[100px] space-x-16  px-5 ">
-        <div>
+      <div class="relative flex flex-col w-full  space-x-6   ">
+        <div class="h-[120px]">
           <svg
             viewBox="0 0 349.32501220703125 225"
             xmlns="http://www.w3.org/2000/svg"
@@ -237,8 +238,8 @@ function Sem1() {
         </a>
         
       </div>
-      <div class="relative flex  w-full h-[100px] space-x-16  px-5 ">
-        <div>
+      <div class="relative flex flex-col  w-full  space-x-6   ">
+        <div class="h-[120px]">
           <svg
             viewBox="0 0 349.32501220703125 225"
             xmlns="http://www.w3.org/2000/svg"

@@ -10,9 +10,9 @@ function Paper() {
   return (
     <>
       {a ? (
-        <div class="grid grid-cols-6 justify-center items-center mt-6 mx-auto max-w-[1200px] gap-4 p-4 ">
+        <div class="grid  grid-cols-2 sm:grid-cols-3  lg:grid-cols-6 mt-6 justify-center items-center mx-auto space-x-4 sm:space-x-10 lg:mt-2 sm:space-y-8  max-w-[1200px]  space-y-6  ">
           <Link to="/user/paper/sem1">
-            <div class="w-[150px] p-1 h-[20px] text-xl rounded-lg items-center text-center justify-center flex bg-green-200">
+            <div class="w-[150px] p-1 h-[20px] text-xl rounded-lg items-center text-center mt-5 gap-4 ml-4 sm:ml-10  sm:mt-7 lg:mt-9 justify-center flex bg-green-200">
               {" "}
               <span className="bg-green-300 p-3 py-1 rounded-md">
                 <span className="bg-green-400 p-1 rounded-md">Semester 1</span>

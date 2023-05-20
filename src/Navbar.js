@@ -1,25 +1,102 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import menu from "./image/menu.svg";
+import { Dropdown } from "antd";
 function Navbar() {
+  const items = [
+    {
+      key: "1",
+      label: (
+        <Link to="/" rel="noopener noreferrer">
+          Home
+        </Link>
+      ),
+    },
+    {
+      key: "2",
+      label: (
+        <Link to="/user/notes" rel="noopener noreferrer">
+          Notes
+        </Link>
+      ),
+    },
+    {
+      key: "3",
+      label: (
+        <Link to="/user/labs" rel="noopener noreferrer">
+          Labs
+        </Link>
+      ),
+    },
+    {
+      key: "4",
+      label: (
+        <Link to="/user/paper" rel="noopener noreferrer">
+          Paper
+        </Link>
+      ),
+    },
+    {
+      key: "5",
+      label: (
+        <Link to="/user/creator" rel="noopener noreferrer">
+          Creator
+        </Link>
+      ),
+    },
+  ];
   return (
     <div class="font-mullish w-full relative rounded-sm text-2xl p-6 bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% ">
+      {/* //TODO /simple */}
+      <div class="sm:hidden flex justify-between items-center  ">
+        <Dropdown
+          menu={{
+            items,
+          }}
+          placement="bottomLeft"
+          arrow={{
+            pointAtCenter: true,
+
+          }}
+        style={{height:"10px"}}
+        >
+          <button class="">
+            {" "}
+            <img src={menu} alt="" height="35px" width="35px" />{" "}
+          </button>
+        </Dropdown>
+        <div>
+          <ul class="flex sm:hidden justify-center items-center text-white gap-4 px-3">
+            <li class="hover:underline   p-2 rounded-md transition-all duration-500">
+              <Link to="/auth/login" style={{ textDecoration: "none" }}>
+                Login
+              </Link>
+            </li>
+            <li class="hover:underline   p-2 rounded-md transition-all duration-500">
+              <Link to="/auth/signup" style={{ textDecoration: "none" }}>
+                SignUp
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </div>
+      {/* //TODO /sm */}
       <div class="flex lg:max-w-[1300px]  mx-auto  justify-between items-center px-10  text-white  rounded-lg">
-        <ul className="nav_bar sm:flex justify-center items-center gap-4 hidden   ">
+        <ul className="nav_bar sm:flex justify-center  items-center gap-4 hidden   ">
           <li class="hover:underline hover:bg-indigo-600  p-2 rounded-md transition-all duration-500">
             <Link to="/" style={{ textDecoration: "none" }}>
               Home
             </Link>
           </li>
 
-          <li class="hover:underline hover:bg-blue-600  p-2 rounded-md transition-all duration-500">
-            <Link to="/user/labs" style={{ textDecoration: "none" }}>
-              Labs
-            </Link>
-          </li>
           <li class="hover:underline hover:bg-sky-500   p-2 rounded-md transition-all duration-500">
             <Link to="/user/notes" style={{ textDecoration: "none" }}>
               Notes
+            </Link>
+          </li>
+          <li class="hover:underline hover:bg-blue-600  p-2 rounded-md transition-all duration-500">
+            <Link to="/user/labs" style={{ textDecoration: "none" }}>
+              Labs
             </Link>
           </li>
           <li class="hover:underline hover:bg-sky-600  p-2 rounded-md transition-all duration-500">
@@ -34,19 +111,20 @@ function Navbar() {
             </Link>
           </li>
         </ul>
-        <ul class="flex justify-center items-center gap-4 px-3">
-          <li class="hover:underline hover:bg-green-500  p-2 rounded-md transition-all duration-500">
+
+        <ul class="sm:flex hidden justify-center items-center gap-4 px-3">
+          <li class="hover:underline hover:bg-green-600  p-2 rounded-md transition-all duration-500">
             <Link to="/auth/login" style={{ textDecoration: "none" }}>
               Login
             </Link>
           </li>
-          <li class="hover:underline hover:bg-green-500  p-2 rounded-md transition-all duration-500">
+          <li class="hover:underline hover:bg-green-600  p-2 rounded-md transition-all duration-500">
             <Link to="/auth/signup" style={{ textDecoration: "none" }}>
-              Sign Up
+              SignUp
             </Link>
           </li>
         </ul>
-     </div>
+      </div>
     </div>
   );
 }

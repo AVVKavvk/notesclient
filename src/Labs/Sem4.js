@@ -5,7 +5,7 @@ import llll from '../image/l4ll.svg'
 import lllll from '../image/l4lll.svg'
 function Sem4() {
   return (
-    <div class=" w-[1000px] grid  grid-cols-3 relative gap-2 pt-4 space-y-5 mt-8 overflow-hidden">
+    <div class="sm:w-[500px]  lg:w-[900px] lg:p-6 grid grid-cols-1  sm:grid-cols-2   sm:h-[700px]  relative lg:grid-cols-4 gap-2 pt-4  space-y-2 sm:space-x-8 sm:space-y-5 mt-8 overflow-hidden">
     <div class="relative flex flex-col justify-center items-center text-center  w-full h-[250px] space-x-16  px-5 ">
       <div>
       <a

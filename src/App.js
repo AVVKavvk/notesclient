@@ -28,12 +28,42 @@ import Seml6 from "../src/Labs/Sem6";
 import A from "./Notes/A";
 import Ap from "./Paper/A";
 import Al from "./Labs/A";
+import toast, { Toaster } from "react-hot-toast";
 import { Key_Access_Token, getItem } from "./utils/localStorage";
-
+import { useSelector } from "react-redux";
+import { useEffect, useRef } from "react";
+import LoadingBar from "react-top-loading-bar";
+export const TOAST_SUCCESS = "toast_success";
+export const TOAST_ERROR = "toast_error";
 function App() {
   const a = getItem(Key_Access_Token);
+  const isLoading = useSelector((state) => state.appConfigReducer.isloading);
+  const toastData = useSelector((state) => state.appConfigReducer.toastData);
+  const loadingRef = useRef(null);
+  useEffect(() => {
+    if (isLoading) {
+      loadingRef.current?.continuousStart();
+    } else {
+      loadingRef.current?.complete();
+    }
+  }, [isLoading]);
+  useEffect(() => {
+    switch (toastData.type) {
+      case TOAST_SUCCESS:
+        toast.success(toastData.message);
+        break;
+      case TOAST_ERROR:
+        toast.error(toastData.message);
+
+        break;
+    }
+  }, [toastData]);
   return (
-    <div className="App" class=" overflow-hidden   bg-gray-300  mx-auto font-mullish  ">
+    <div className="App" class=" overflow-hidden mx-auto   ">
+       <LoadingBar color="#f11946" ref={loadingRef} />
+      <div>
+        <Toaster />
+      </div>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

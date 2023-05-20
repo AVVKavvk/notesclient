@@ -1,11 +1,14 @@
 import axios from "axios";
+import store from "../slice/store";
 import { deleteUser, getItem, Key_Access_Token, setItem } from "./localStorage";
+import { setLoading, showToast } from "../slice/appConfigSlice";
+import { TOAST_ERROR } from "../App";
 export const axiosClient = axios.create({
   baseURL: process.env.REACT_APP_SERVER_BASE_URL,
   withCredentials: true,
 });
 axiosClient.interceptors.request.use((request) => {
-  // store.dispatch(setLoading(true));
+  store.dispatch(setLoading(true));
   const accesstoken = getItem(Key_Access_Token);
   request.headers["Authorization"] = `Bearer ${accesstoken}`;
   return request;
@@ -14,19 +17,19 @@ axiosClient.interceptors.request.use((request) => {
 axiosClient.interceptors.response.use(
   async (respone) => {
     const data = respone.data;
-    // store.dispatch(setLoading(false));
+    store.dispatch(setLoading(false));
     if (data.status == "ok") {
       return data;
     }
     const statuscode = data.statuscode;
     const OriginalRequest = respone.config;
     const error = data.message;
-    // console.log(error);
-    // store.dispatch(showToast({
-    //   type:TOAST_ERROR,
-    //   message:`${error}`
-    // })
-    // );
+    
+    store.dispatch(showToast({
+      type:TOAST_ERROR,
+      message:`${error}`
+    })
+    );
  
     if (statuscode === 401 && !OriginalRequest._retry) {
       // means the access token has expired
@@ -57,13 +60,13 @@ axiosClient.interceptors.response.use(
     return Promise.reject(error);
   },
   async (error) => {
-    // store.dispatch(setLoading(false));
-    // store.dispatch(
-    //   showToast({
-    //     type: TOAST_ERROR,
-    //     message: error.message,
-    //   })
-    // );
+    store.dispatch(setLoading(false));
+    store.dispatch(
+      showToast({
+        type: TOAST_ERROR,
+        message: error.message,
+      })
+    );
     return Promise.reject(error);
   }
 );

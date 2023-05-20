@@ -2,9 +2,9 @@ import React from 'react'
 import ll from '../image/logo4.svg'
 function Sem5() {
   return (
-    <div class=" w-[1000px] grid  grid-cols-1 relative gap-2 pt-4 hei space-y-5 mt-8 overflow-hidden">
-      <div class="relative flex  w-full h-[100px] space-x-16  px-5 ">
-        <div>
+    <div class="lg:w-[600px] grid sm:grid-cols-3 grid-cols-2 space-y-5 lg:space-y-0 ml-6 lg:mx-auto lg:grid-cols-3 relative  justify-evenly  mt-8 overflow-hidden">
+      <div class="relative flex flex-col  p-0 mt-[20px] lg:mt-0 space-x-6 ">
+        <div class="h-[120px]">
           <svg
             viewBox="0 0 349.32501220703125 225"
             xmlns="http://www.w3.org/2000/svg"
@@ -42,8 +42,8 @@ function Sem5() {
         </a>
         
       </div>
-      <div class="relative flex  w-full h-[100px] space-x-16  px-5 ">
-        <div>
+      <div class="relative flex flex-col space-x-6 ">
+        <div class="h-[120px]">
           <svg
             viewBox="0 0 349.32501220703125 225"
             xmlns="http://www.w3.org/2000/svg"
@@ -81,8 +81,8 @@ function Sem5() {
         </a>
         
       </div>
-      <div class="relative flex  w-full h-[100px] space-x-16  px-5 ">
-        <div>
+      <div class="relative flex flex-col space-x-6 ">
+        <div class="h-[120px]">
           <svg
             viewBox="0 0 349.32501220703125 225"
             xmlns="http://www.w3.org/2000/svg"

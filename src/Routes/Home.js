@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import imgsecctio1 from "../image/book1.svg";
 import imgsecctio2 from "../image/book2.svg";
 import imgsecctio3 from "../image/pencil.svg";
@@ -7,7 +7,7 @@ import imgsecctio5 from "../image/books-notes-student-svgrepo-com.svg";
 import imgsecctio6 from "../image/book-key-keyboard-svgrepo-com.svg";
 import Typewriter from "typewriter-effect";
 import { Link } from "react-router-dom";
-import { Button } from "antd";
+
 import { getItem } from "../utils/localStorage";
 import { Key_Access_Token } from "../utils/localStorage";
 import { axiosClient } from "../utils/axiosClient";
@@ -20,39 +20,29 @@ import n1 from "../image/notes1.svg";
 import n2 from "../image/notes2.svg";
 import n3 from "../image/notes3.svg";
 import n4 from "../image/notes4.svg";
+import { useSelector } from "react-redux";
 function Home() {
-  let a = 0;
-  async function countU() {
-    try {
-      const result = await axiosClient.get("/auth/count");
-      a = result.result;
-      console.log(a);
-    } catch (e) {
-      // console.log(process.env.REACT_APP_SERVER_BASE_URL);
-      console.log(e);
-    }
-  }
-  countU();
+  const count = useSelector((state) => state.appConfigReducer.count);
+console.log(count);
 
   return (
     <>
-      <div class="   bg-gray-300 mt-6">
-        <div className=" lg:grid  hidden grid-cols-2 overflow-hidden gap-2  relative h-[420px]">
-          <div className="flex flex-col mx-auto font-mullish text-4xl justify-center text-blue-900    ">
-            <h1 class="flex gap-3   ">
-              <span class="underline"> Hello Welcome to </span>
-              <h1 class="text-red-700 ">
-                <Typewriter
-                  options={{
-                    strings: ["Vipin's Website", "Notes Website"],
-                    autoStart: true,
-                    loop: true,
-                  }}
-                />
-              </h1>
+      <div class="    mt-6">
+        <div className=" flex-col  lg:flex  hidden mx-auto w-[500px] mb-12  text-4xl justify-center text-blue-900    ">
+          <h1 class="flex gap-3   ">
+            <span class="underline">Welcome to </span>
+            <h1 class="text-red-700 ">
+              <Typewriter
+                options={{
+                  strings: ["VIPIN'S WEBSITE", "NOTES WEBSITE"],
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
             </h1>
-          </div>
-
+          </h1>
+        </div>
+        <div className=" lg:grid mx-10 hidden grid-cols-2 overflow-hidden gap-2  relative h-[420px]">
           <div class="h-[400px] sm:w-[400px] w-[400px] overflow-hidden  ">
             <img
               src="https://cdn.thecodehelp.in/ggudduf7qmr7yvjwtcs1_cd7567153f.svg"
@@ -62,22 +52,22 @@ function Home() {
             <img
               src={imgsecctio1}
               alt=""
-              class="w-[150px] absolute left-[30%]"
+              class="w-[150px] absolute right-[15%]"
             />
             <img
               src={imgsecctio2}
               alt=""
-              class="w-[150px] absolute left-[15%]"
+              class="w-[150px] absolute left-[45%]"
             />
             <img
               src={imgsecctio5}
               alt=""
-              class="w-[150px] absolute left-[30%] bottom-0"
+              class="w-[150px] absolute left-[45%] bottom-0"
             />
             <img
               src={imgsecctio6}
               alt=""
-              class="w-[150px] absolute bottom-0 left-[15%]"
+              class="w-[150px] absolute bottom-0 right-[15%]"
             />
 
             <img
@@ -94,13 +84,13 @@ function Home() {
         </div>
         {/* //TODO sm wala part */}
         <div class="sm:grid lg:hidden hidden mt-10">
-          <div className="flex flex-col mx-auto font-mullish text-4xl justify-center text-blue-900    ">
+          <div className="flex flex-col mx-auto text-4xl justify-center text-blue-900    ">
             <h1 class="flex gap-3   ">
-              <span class="underline"> Hello Welcome to </span>
+              <span class="underline">Welcome to </span>
               <h1 class="text-red-700 ">
                 <Typewriter
                   options={{
-                    strings: ["Vipin's Website", "Notes Website"],
+                    strings: ["VIPIN'S WEBSITE", "NOTES WEBSITE"],
                     autoStart: true,
                     loop: true,
                   }}
@@ -128,13 +118,13 @@ function Home() {
         </div>
         {/* //TODO simple wala part */}
         <div class="grid sm:hidden mt-10">
-          <div className="flex flex-col mx-auto font-mullish text-2xl justify-center text-blue-900    ">
+          <div className="flex flex-col mx-auto  text-2xl justify-center text-blue-900    ">
             <h1 class="flex gap-3   ">
-              <span class="underline"> Hello Welcome to </span>
+              <span class="underline"> Welcome to </span>
               <h1 class="text-red-700 ">
                 <Typewriter
                   options={{
-                    strings: ["Vipin's Website", "Notes Website"],
+                    strings: ["VIPIN'S WEBSITE", "NOTES WEBSITE"],
                     autoStart: true,
                     loop: true,
                   }}
@@ -155,13 +145,52 @@ function Home() {
           </div>
         </div>
 
-        <div class="p-3 justify-center items-center mt-16 max-w-[1200px] text-center mx-auto">
-          <div class="flex justify-center text-center items-center font-mullish text-xl text-blue-900  ">
+        <div class="p-3 lg:hidden justify-center items-center mt-16 max-w-[1200px] text-center mx-auto">
+          <div class="flex justify-center  text-justify items-center  text-xl text-blue-900  ">
             <p>
-              Hello welcome to notes website of IIIT Pune. In this website you
-              will get all the notes, labs, and paper of previous year and I
-              will also provide you the ppt that teacher shared with us.I hope
-              this page will find you helpful.
+              Hello, welcome to notes website of IIIT Pune. In this website you
+              will be provided with notes and lab materials for all semesters,
+              along with PYQ papers. The site will also provide the PPTs that
+              are shared with the students. <br /> <br />
+              Hope you find this website helpful.
+            </p>
+          </div>
+        </div>
+        <div class="flex lg:hidden text-xl mx-4 justify-center items-center mt-10 sm:mx-auto flex-col rounded-md max-w-[500px]   border-2 m-5 border-blue-500">
+          <h1 class="text-xl m-4 text-deepBlue">
+            For Accessing this page please do following steps
+          </h1>
+          <h1 class="m-1 p-2 ">
+            Already have account
+            <Link
+              to="/auth/login"
+              class="bg-blue-700 p-2 m-2 px-2 text-lg rounded-md text-white mb-3 hover:bg-blue-500 transition-all duration-200 "
+            >
+              Login
+            </Link>
+          </h1>
+
+          <h1 class="m-1 p-2 ">
+            Do not have account{" "}
+            <Link
+              to="/auth/signup"
+              class="bg-blue-700 p-2 m-1 px-2 text-lg rounded-md text-white mb-3 hover:bg-blue-500 transition-all duration-200 "
+            >
+              SignUp
+            </Link>
+          </h1>
+        </div>
+      </div>
+
+      <div class="lg:flex hidden mb-28  ">
+        <div class="p-3  mt-10 max-w-[500px] text-center ml-10">
+          <div class="flex justify-center  text-justify items-center  text-xl text-blue-900  ">
+            <p>
+              Hello, welcome to notes website of IIIT Pune. In this website you
+              will be provided with notes and lab materials for all semesters,
+              along with PYQ papers. The site will also provide the PPTs that
+              are shared with the students. <br /> <br />
+              Hope you find this website helpful.
             </p>
           </div>
         </div>
@@ -185,7 +214,7 @@ function Home() {
               to="/auth/signup"
               class="bg-blue-700 p-2 m-2 px-5 text-lg rounded-md text-white mb-3 hover:bg-blue-500 transition-all duration-200 "
             >
-              Sign-Up
+              SignUp
             </Link>
           </h1>
         </div>
