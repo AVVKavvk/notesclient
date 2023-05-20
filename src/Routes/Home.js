@@ -8,7 +8,7 @@ import imgsecctio6 from "../image/book-key-keyboard-svgrepo-com.svg";
 import Typewriter from "typewriter-effect";
 import { Link } from "react-router-dom";
 
-import {getItem } from "../utils/localStorage";
+import { getItem } from "../utils/localStorage";
 import { Key_Access_Token } from "../utils/localStorage";
 
 import img1 from "../image/logo.svg";
@@ -25,13 +25,13 @@ import { useDispatch, useSelector } from "react-redux";
 function Home() {
   const count = useSelector((state) => state.appConfigReducer.count);
   console.log(count);
-  const dispatch=useDispatch()
+  const dispatch = useDispatch();
   const a = getItem(Key_Access_Token);
- 
+
   return (
     <>
       <div class="    mt-6">
-        <div className=" flex-col  lg:flex  hidden mx-auto w-[500px] mb-12  text-4xl justify-center text-blue-900    ">
+        <div className=" flex-col  lg:flex  hidden mx-auto sm:w-[400px] lg:w-[500px] mb-12  text-4xl justify-center text-blue-900    ">
           <h1 class="flex gap-3   ">
             <span class="underline">Welcome to </span>
             <h1 class="text-red-700 ">
@@ -168,7 +168,7 @@ function Home() {
                 For Accessing this page please do following steps
               </h1>
               {a ? (
-                " "
+                ""
               ) : (
                 <h1 class="m-1 p-2 ">
                   Already have account
@@ -194,7 +194,7 @@ function Home() {
         </>
       </div>
 
-      <div class="lg:flex hidden mb-28  ">
+      <div class="lg:flex hidden mb-28 relative  ">
         <div class="p-3  mt-10 max-w-[500px] text-center ml-10">
           <div class="flex justify-center  text-justify items-center  text-xl text-blue-900  ">
             <p>
@@ -209,7 +209,10 @@ function Home() {
 
         <>
           {a ? (
-            ""
+            <>
+              <div class="anni bottom-2"> </div>
+              <div class="anni1 bottom-2"> </div>
+            </>
           ) : (
             <div class="flex text-xl mx-4 justify-center items-center mt-10 sm:mx-auto flex-col rounded-md max-w-[500px]   border-2 m-5 border-blue-500">
               <h1 class="text-xl m-4 text-deepBlue">

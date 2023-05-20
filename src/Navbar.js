@@ -135,7 +135,7 @@ function Navbar() {
 
           <li class="hover:underline hover:bg-sky-400 p-2 rounded-md transition-all duration-500">
             <Link to="/user/creator" style={{ textDecoration: "none" }}>
-              Creator
+              About_Me
             </Link>
           </li>
         </ul>
@@ -146,7 +146,7 @@ function Navbar() {
               <Link to="/auth/visitor" style={{ textDecoration: "none" }}>
                 <li class=" text-2xl flex justify-center items-center group ">
                   {" "}
-                  Unique Visitor <span class="text-4xl ml-4 group-hover:scale-125 transition-all duration-300    ">{count} </span>
+                  Unique_Visitor <span class="text-4xl ml-4 group-hover:scale-125 transition-all duration-300    ">{count} </span>
                 </li>
               </Link>
             ) : (

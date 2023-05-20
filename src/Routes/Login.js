@@ -58,7 +58,7 @@ function Login() {
   // }, []);
   return (
     <div class="grid  lg:grid-cols-2 mx-auto lg:mx-72 items-center ">
-      <div class="w-[580px] hidden lg:block ">
+      <div class="w-[580px] hidden lg:block mt-3 rounded-lg ">
         <img src={men} alt="" height="500px" width="400px" style={{}} />
       </div>
       <div class="flex  flex-col justify-center items-center mx-auto h-[380px] mb-5 lg:h-[400px] lg:p-10 p-6  border-2 max-w-[600px] rounded-lg mt-11  border-green-400">
@@ -77,6 +77,7 @@ function Login() {
             remember: true,
           }}
           autoComplete="off"
+        
         >
           <Form.Item
             label="email"
