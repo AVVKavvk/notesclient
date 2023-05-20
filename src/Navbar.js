@@ -84,10 +84,12 @@ function Navbar() {
           <ul class="flex sm:hidden justify-center items-center text-white gap-4 px-3">
             <>
               {a ? (
-                <div class=" text-2xl flex justify-center  items-center ">
+                <Link to="/auth/visitor" style={{ textDecoration: "none" }}>
+                <li class=" text-2xl flex justify-center items-center group ">
                   {" "}
-                  Unique Visitor <span class="text-4xl ml-4">{count} </span>
-                </div>
+                  Unique Visitor <span class="text-4xl ml-4 group-hover:scale-125 transition-all duration-300    ">{count} </span>
+                </li>
+              </Link>
               ) : (
                 <>
                   <li class="hover:underline hover:bg-green-600  p-2 rounded-md transition-all duration-500">
