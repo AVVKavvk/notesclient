@@ -8,40 +8,53 @@ import { TOAST_ERROR, TOAST_SUCCESS } from "../App";
 function Signup() {
   const navigate = useNavigate();
   const dispatch = useDispatch();
+  const [err, setError] = useState("a");
   const [email, setemail] = useState("");
   const [name, setname] = useState("");
   const [number, setnumber] = useState("");
   const [password, setpassword] = useState("");
+
+  function isValidEmail(email) {
+    return /\S+@\S+\.\S+/.test(email);
+  }
+
   async function handleSignup(e) {
     e.preventDefault();
-    try {
-      const result = await axiosClient.post("/auth/signup", {
-        email,
-        password,
-        name,
-        number,
-      });
-      // setItem(Key_Access_Token,result.result.token)
-      console.log(result);
-      dispatch(
-        showToast({
-          type: TOAST_SUCCESS,
-          message: `${result.result}`,
-        })
-      );
-      setTimeout(() => {
+    if (!isValidEmail(email)) {
+      setError("Email is invalid");
+    } else {
+      setError("a");
+    }
+    // console.log(err);
+    if (err === "a") {
+      try {
+        const result = await axiosClient.post("/auth/signup", {
+          email,
+          password,
+          name,
+          number,
+        });
+        // setItem(Key_Access_Token,result.result.token)
+        // console.log(result);
         dispatch(
           showToast({
             type: TOAST_SUCCESS,
-            message: "Now Login",
+            message: `${result.result}`,
           })
         );
-      }, 2000);
-      if (result) {
-        //
-        navigate("/auth/login");
-      }
-    } catch (e) {
+        setTimeout(() => {
+          dispatch(
+            showToast({
+              type: TOAST_SUCCESS,
+              message: "Now Login",
+            })
+          );
+        }, 2000);
+        if (result) {
+          //
+          navigate("/auth/login");
+        }
+      } catch (e) {}
       // console.log(process.env.REACT_APP_SERVER_BASE_URL);
       // dispatch(
       //   showToast({
@@ -49,7 +62,15 @@ function Signup() {
       //     message: `${e}`,
       //   })
       // );
+    } else {
+      dispatch(
+        showToast({
+          type: TOAST_SUCCESS,
+          message: `${err}`,
+        })
+      );
     }
+    // console.log(error);
   }
   return (
     <div class="grid items-center mx-auto ">
@@ -87,7 +108,9 @@ function Signup() {
             <Input
               class=""
               placeholder="email"
-              onChange={(e) => setemail(e.target.value)}
+              onChange={(e) => {
+                setemail(e.target.value);
+              }}
             />
           </Form.Item>
 
