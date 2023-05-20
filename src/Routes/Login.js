@@ -55,7 +55,7 @@ function Login() {
       <div class="w-[580px] hidden lg:block ">
         <img src={men} alt="" height="500px" width="400px" style={{}} />
       </div>
-      <div class="flex justify-center items-center mx-auto h-[380px] mb-5 lg:h-[400px] lg:p-10 p-6  border-2 max-w-[600px] rounded-lg mt-11  border-green-400">
+      <div class="flex  flex-col justify-center items-center mx-auto h-[380px] mb-5 lg:h-[400px] lg:p-10 p-6  border-2 max-w-[600px] rounded-lg mt-11  border-green-400">
         <Form
           name="basic"
           labelCol={{
@@ -123,13 +123,22 @@ function Login() {
             }}
           >
             <button
-              class="bg-blue-500 rounded-md text-lg p-1 px-2 text-white hover:bg-blue-600 transition-all duration-200  "
+              class="bg-blue-700 rounded-md text-lg p-1 px-3 text-white hover:bg-blue-600 transition-all duration-200  "
               onClick={submitHandle}
             >
               Login
             </button>
           </Form.Item>
         </Form>
+        <h1 class="m-1 p-2 ">
+            Do not have account{" "}
+            <Link
+              to="/auth/signup"
+              class="bg-blue-700 p-2 m-1 px-2 text-xl rounded-md text-white mb-3 hover:bg-blue-600 transition-all duration-200 "
+            >
+              SignUp
+            </Link>
+          </h1>
       </div>
     </div>
   );
