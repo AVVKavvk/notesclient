@@ -82,24 +82,27 @@ function Navbar() {
         </Dropdown>
         <div>
           <ul class="flex sm:hidden justify-center items-center text-white gap-4 px-3">
-          <>
-            {a ? (
-              <div class=" text-2xl flex justify-center items-center "> Unique Visitor  <span class="text-4xl ml-4">{count} </span></div>
-            ) : (
-              <>
-              <li class="hover:underline hover:bg-green-600  p-2 rounded-md transition-all duration-500">
-                <Link to="/auth/login" style={{ textDecoration: "none" }}>
-                  Login
-                </Link>
-              </li>
-            <li class="hover:underline   p-2 rounded-md transition-all duration-500">
-              <Link to="/auth/signup" style={{ textDecoration: "none" }}>
-                SignUp
-              </Link>
-            </li>
-            </>
+            <>
+              {a ? (
+                <div class=" text-2xl flex justify-center  items-center ">
+                  {" "}
+                  Unique Visitor <span class="text-4xl ml-4">{count} </span>
+                </div>
+              ) : (
+                <>
+                  <li class="hover:underline hover:bg-green-600  p-2 rounded-md transition-all duration-500">
+                    <Link to="/auth/login" style={{ textDecoration: "none" }}>
+                      Login
+                    </Link>
+                  </li>
+                  <li class="hover:underline   p-2 rounded-md transition-all duration-500">
+                    <Link to="/auth/signup" style={{ textDecoration: "none" }}>
+                      SignUp
+                    </Link>
+                  </li>
+                </>
               )}
-          </>
+            </>
           </ul>
         </div>
       </div>
@@ -136,23 +139,28 @@ function Navbar() {
         </ul>
 
         <ul class="sm:flex hidden justify-center items-center gap-4 px-3">
-        <>
+          <>
             {a ? (
-              <div class=" text-2xl flex justify-center items-center "> Unique Visitor  <span class="text-4xl ml-4">{count} </span></div>
+              <Link to="/auth/visitor" style={{ textDecoration: "none" }}>
+                <li class=" text-2xl flex justify-center items-center group ">
+                  {" "}
+                  Unique Visitor <span class="text-4xl ml-4 group-hover:scale-125 transition-all duration-300    ">{count} </span>
+                </li>
+              </Link>
             ) : (
               <>
-              <li class="hover:underline hover:bg-green-600  p-2 rounded-md transition-all duration-500">
-                <Link to="/auth/login" style={{ textDecoration: "none" }}>
-                  Login
-                </Link>
-              </li>
-            <li class="hover:underline   p-2 rounded-md transition-all duration-500">
-              <Link to="/auth/signup" style={{ textDecoration: "none" }}>
-                SignUp
-              </Link>
-            </li>
-            </>
-              )}
+                <li class="hover:underline hover:bg-green-600  p-2 rounded-md transition-all duration-500">
+                  <Link to="/auth/login" style={{ textDecoration: "none" }}>
+                    Login
+                  </Link>
+                </li>
+                <li class="hover:underline   p-2 rounded-md transition-all duration-500">
+                  <Link to="/auth/signup" style={{ textDecoration: "none" }}>
+                    SignUp
+                  </Link>
+                </li>
+              </>
+            )}
           </>
         </ul>
       </div>

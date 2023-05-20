@@ -33,6 +33,7 @@ import { Key_Access_Token, getItem } from "./utils/localStorage";
 import { useSelector } from "react-redux";
 import { useEffect, useRef } from "react";
 import LoadingBar from "react-top-loading-bar";
+import Visitor from "./Routes/Visitor";
 export const TOAST_SUCCESS = "toast_success";
 export const TOAST_ERROR = "toast_error";
 function App() {
@@ -99,6 +100,7 @@ function App() {
         </Route>
         <Route path="/auth/login" element={<Login />} />
         <Route path="/auth/signup" element={<Signup />} />
+        <Route path="/auth/visitor" element={<Visitor />} />
       </Routes>
     </div>
   );

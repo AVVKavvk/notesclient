@@ -8,7 +8,7 @@ import imgsecctio6 from "../image/book-key-keyboard-svgrepo-com.svg";
 import Typewriter from "typewriter-effect";
 import { Link } from "react-router-dom";
 
-import { getItem } from "../utils/localStorage";
+import {getItem } from "../utils/localStorage";
 import { Key_Access_Token } from "../utils/localStorage";
 
 import img1 from "../image/logo.svg";
@@ -20,11 +20,14 @@ import n1 from "../image/notes1.svg";
 import n2 from "../image/notes2.svg";
 import n3 from "../image/notes3.svg";
 import n4 from "../image/notes4.svg";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
+
 function Home() {
   const count = useSelector((state) => state.appConfigReducer.count);
   console.log(count);
+  const dispatch=useDispatch()
   const a = getItem(Key_Access_Token);
+ 
   return (
     <>
       <div class="    mt-6">

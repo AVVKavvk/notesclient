@@ -3,7 +3,12 @@ import { Button, Checkbox, Form, Input } from "antd";
 import men from "../image/men.png";
 import { Link, useNavigate } from "react-router-dom";
 import { axiosClient } from "../utils/axiosClient";
-import { Key_Access_Token, countUser, count_User, setItem } from "../utils/localStorage";
+import {
+  Key_Access_Token,
+  countUser,
+  count_User,
+  setItem,
+} from "../utils/localStorage";
 import { useDispatch } from "react-redux";
 import { setcount, showToast } from "../slice/appConfigSlice";
 import { TOAST_SUCCESS } from "../App";
@@ -33,7 +38,6 @@ function Login() {
         navigate("/");
       }
     } catch (e) {
-      
       console.log(e);
     }
   }
@@ -41,9 +45,9 @@ function Login() {
   async function countU() {
     try {
       const result = await axiosClient.get("/auth/count");
-    //  countUser(count_User , result.result)
-    dispatch(setcount(result.result));
-    setItem(count_User, result.result)
+      //  countUser(count_User , result.result)
+      dispatch(setcount(result.result));
+      setItem(count_User, result.result);
     } catch (e) {
       // console.log(process.env.REACT_APP_SERVER_BASE_URL);
       // console.log(e);
