@@ -3,8 +3,8 @@ import { Link, Outlet, useNavigate } from "react-router-dom";
 import { Key_Access_Token, getItem } from "../utils/localStorage";
 
 function Notes() {
-  // const a = getItem(Key_Access_Token);
-  const a = 10;
+  const a = getItem(Key_Access_Token);
+  // const a = 10;
   const navigate = useNavigate();
   return (
     <>

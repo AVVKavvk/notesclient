@@ -34,7 +34,7 @@ function Login() {
       }
     } catch (e) {
       // console.log(process.env.REACT_APP_SERVER_BASE_URL);
-      console.log(e);
+      // console.log(e);
     }
   }
   async function countU() {
@@ -44,7 +44,7 @@ function Login() {
       
     } catch (e) {
       // console.log(process.env.REACT_APP_SERVER_BASE_URL);
-      console.log(e);
+      // console.log(e);
     }
   }
   // useEffect(() => {

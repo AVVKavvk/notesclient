@@ -3,10 +3,10 @@ import { Link, Outlet, useNavigate } from "react-router-dom";
 import { Key_Access_Token, getItem } from "../utils/localStorage";
 
 function Paper() {
-  // const a = getItem(Key_Access_Token);
-  const a = 10;
+  const a = getItem(Key_Access_Token);
+  // const a = 10;
   const navigate=useNavigate();
-  console.log(a);
+  // console.log(a);
   return (
     <>
       {a ? (

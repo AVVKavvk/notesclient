@@ -31,8 +31,8 @@ function Signup() {
     } else {
       setError1("Phone Number Not Valid");
     }
-    console.log(err);
-    console.log(err1);
+    // console.log(err);
+    // console.log(err1);
   },[email,number])
   async function handleSignup(e) {
     e.preventDefault();
