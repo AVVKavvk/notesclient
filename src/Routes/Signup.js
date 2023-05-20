@@ -1,14 +1,17 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { axiosClient } from "../utils/axiosClient";
 import { Button, Form, Input } from "antd";
 import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { showToast } from "../slice/appConfigSlice";
 import { TOAST_ERROR, TOAST_SUCCESS } from "../App";
+import { isValidPhoneNumber } from "react-phone-number-input";
+
 function Signup() {
   const navigate = useNavigate();
   const dispatch = useDispatch();
-  const [err, setError] = useState("a");
+  const [err, setError] = useState("");
+  const [err1, setError1] = useState("");
   const [email, setemail] = useState("");
   const [name, setname] = useState("");
   const [number, setnumber] = useState("");
@@ -17,16 +20,24 @@ function Signup() {
   function isValidEmail(email) {
     return /\S+@\S+\.\S+/.test(email);
   }
-
-  async function handleSignup(e) {
-    e.preventDefault();
+  useEffect (()=>{
     if (!isValidEmail(email)) {
       setError("Email is invalid");
     } else {
       setError("a");
     }
-    // console.log(err);
-    if (err === "a") {
+    if (number && isValidPhoneNumber(number)) {
+      setError1("a");
+    } else {
+      setError1("Phone Number Not Valid");
+    }
+    console.log(err);
+    console.log(err1);
+  },[email,number])
+  async function handleSignup(e) {
+    e.preventDefault();
+   
+    if (err === "a" && err1 == "a") {
       try {
         const result = await axiosClient.post("/auth/signup", {
           email,
@@ -63,12 +74,23 @@ function Signup() {
       //   })
       // );
     } else {
-      dispatch(
-        showToast({
-          type: TOAST_SUCCESS,
-          message: `${err}`,
-        })
-      );
+      if (err != "a") {
+        dispatch(
+          showToast({
+            type: TOAST_ERROR,
+            message: `${err}`,
+          })
+        );
+      }
+      if(err1!="a"){
+
+        dispatch(
+          showToast({
+            type: TOAST_ERROR,
+            message: `${err1}`,
+          })
+          );
+        }
     }
     // console.log(error);
   }
@@ -107,10 +129,9 @@ function Signup() {
           >
             <Input
               class=""
+              type="email"
               placeholder="email"
-              onChange={(e) => {
-                setemail(e.target.value);
-              }}
+              onChange={(e) => setemail(e.target.value)}
             />
           </Form.Item>
 
@@ -132,6 +153,7 @@ function Signup() {
           <Form.Item
             label="Phone Number"
             name="phNo"
+           
             rules={[
               {
                 required: true,
@@ -140,7 +162,7 @@ function Signup() {
             ]}
           >
             <Input.Password
-              placeholder="810709...."
+              placeholder="+91810709...."
               onChange={(e) => setnumber(e.target.value)}
             />
           </Form.Item>
