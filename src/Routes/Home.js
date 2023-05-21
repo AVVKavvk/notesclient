@@ -210,8 +210,8 @@ function Home() {
         <>
           {a ? (
             <>
-              <div class="anni bottom-2"> </div>
-              <div class="anni1 bottom-2"> </div>
+              <div class="anni bottom-2 text-center  text-2xl justify-end items-center flex"> </div>
+              <div class="anni1 bottom-2 text-2xl justify-end items-center flex"> </div>
             </>
           ) : (
             <div class="flex text-xl mx-4 justify-center items-center mt-10 sm:mx-auto flex-col rounded-md max-w-[500px]   border-2 m-5 border-blue-500">

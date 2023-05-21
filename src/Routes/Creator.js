@@ -101,7 +101,7 @@ function Creator() {
             </a>
             <h1 class="text-lg m-1 text-center">BTech pursuing </h1>
             <h1 class="text-lg  text-center">
-              CGPA <span class="ml-2"> 8.77 </span>{" "}
+              CGPA - <span class="ml-2"> 8.77 </span>{" "}
             </h1>
           </div>
           <div>
@@ -116,7 +116,7 @@ function Creator() {
             </a>
             <h1 class="text-lg m-1 text-center ">Class 12 </h1>
             <h1 class="text-lg text-center ">
-              Grade <span class="ml-2"> 80% </span>{" "}
+              Grade - <span class="ml-2"> 80% </span>{" "}
             </h1>
           </div>
           <div>
@@ -131,7 +131,7 @@ function Creator() {
             </a>
             <h1 class="text-lg m-1 text-center">Class 10 </h1>
             <h1 class="text-lg text-center ">
-              Grade <span class="ml-2"> 92% </span>{" "}
+              Grade - <span class="ml-2"> 92% </span>{" "}
             </h1>
           </div>
         </div>

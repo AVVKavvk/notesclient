@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { axiosClient } from "../utils/axiosClient";
-import { Button, Form, Input } from "antd";
+import { Form, Input } from "antd";
 import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { showToast } from "../slice/appConfigSlice";
@@ -132,6 +132,21 @@ function Signup() {
             />
           </Form.Item>
           <Form.Item
+            label="Phone Number"
+            name="phNo"
+            rules={[
+              {
+                required: true,
+                message: "Please input your Number!",
+              },
+            ]}
+          >
+            <Input
+              placeholder="+91810709...."
+              onChange={(e) => setnumber(e.target.value)}
+            />
+          </Form.Item>
+          <Form.Item
             label="email"
             name="email"
             rules={[
@@ -144,7 +159,7 @@ function Signup() {
             <Input
               class=""
               type="email"
-              placeholder="email"
+              placeholder="vipin...6@gmail.com"
               onChange={(e) => setemail(e.target.value)}
             />
           </Form.Item>
@@ -162,21 +177,6 @@ function Signup() {
             <Input.Password
               placeholder="password"
               onChange={(e) => setpassword(e.target.value)}
-            />
-          </Form.Item>
-          <Form.Item
-            label="Phone Number"
-            name="phNo"
-            rules={[
-              {
-                required: true,
-                message: "Please input your Number!",
-              },
-            ]}
-          >
-            <Input.Password
-              placeholder="+91810709...."
-              onChange={(e) => setnumber(e.target.value)}
             />
           </Form.Item>
 
