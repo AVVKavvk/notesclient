@@ -10,10 +10,10 @@ import { SiCodeforces } from "react-icons/si";
 import { SiLeetcode } from "react-icons/si";
 function Footer() {
   return (
-    <div class=" bg-[#73afec]">
+    <div class=" bg-[#4c97e2]">
 
    
-    <div class=" sm:h-[270px] pb-10 md:pb-20 mx-auto max-w-[1200px] px-5 space-y-10 bg-[#73afec] ">
+    <div class=" sm:h-[270px] pb-10 md:pb-20 mx-auto max-w-[1200px] px-5 space-y-10 bg-[#63a3e3] ">
       <div class="flex flex-col py-8 sm:flex-row items-center ">
         <div class="flex flex-col  justify-center   text-justify items-center  pb-5  text-2xl text-white  ">
           {" "}

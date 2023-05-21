@@ -6,7 +6,7 @@ function Visitor() {
     <div class=" flex flex-col justify-center items-start mx-auto text-justify w-[350px] sm:w-[600px] h-[60vh]">
       <h1 class="text-2xl">
         {" "}
-        Want to know, how many visitor now then login again
+        Want to know, how many users have logged in, then login again
       </h1>
       <h1 class="m-1 p-2 mx-auto mt-5 ">
                 

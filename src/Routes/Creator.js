@@ -15,6 +15,7 @@ import sk6 from "../image/sk6.svg";
 import sk7 from "../image/sk7.svg";
 import sk8 from "../image/sk8.svg";
 import sk9 from "../image/sk9.svg";
+import wave from '../image/wave.png'
 function Creator() {
   return (
     <div class="flex flex-col sm:flex-row justify-center mb-10 p-5  mt-4 space-x-1 max-w-[1100px] mx-auto shadow-2xl ">
@@ -145,6 +146,8 @@ function Creator() {
 
         <div class="flex flex-col justify-center items-center text-center my-10 mb-18 ">
           <h1 class=" text-3xl">
+
+            {/* <img src={wave} alt="" /> */}
             Hi 👋, I'm Vipin Kumawat <br />A passionate
             <h1 class="text-red-700 text-4xl ">
               <Typewriter

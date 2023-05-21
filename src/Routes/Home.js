@@ -216,7 +216,7 @@ function Home() {
               </div>
               <div class="mt-28 z-20  absolute w-[400px] text-3xl text-[#afdaf9] top-5 left-[170px]">
                 {" "}
-                Notes website of iiit pune
+                Notes website of IIIT Pune
               </div>
               {/* <div class="anni1 bottom-2 text-2xl justify-end items-center flex"> </div> */}
             </div>
