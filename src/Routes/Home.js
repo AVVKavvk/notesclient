@@ -195,8 +195,8 @@ function Home() {
       </div>
 
       <div class="lg:flex hidden mb-28 relative  ">
-        <div class="p-3  mt-10 max-w-[500px] text-center ml-10">
-          <div class="flex justify-center  text-justify items-center  text-xl text-blue-900  ">
+        <div class="p-3  mt-10 max-w-[500px] text-center ml-12">
+          <div class="flex justify-center   text-justify items-center  text-xl text-blue-900  ">
             <p>
               Hello, welcome to notes website of IIIT Pune. In this website you
               will be provided with notes and lab materials for all semesters,
@@ -209,10 +209,11 @@ function Home() {
 
         <>
           {a ? (
-            <>
-              <div class="anni bottom-2 text-center  text-2xl justify-end items-center flex"> </div>
-              <div class="anni1 bottom-2 text-2xl justify-end items-center flex"> </div>
-            </>
+            <div class="relative  p-44">
+              <div class="anni bottom-2 z-10 text-center  text-2xl justify-end items-center flex"> </div>
+            <div  class="mt-28 z-20  absolute w-[400px] text-3xl text-[#afdaf9] top-5 left-[200px]"> unofficial website of iiit pune</div>
+              {/* <div class="anni1 bottom-2 text-2xl justify-end items-center flex"> </div> */}
+            </div>
           ) : (
             <div class="flex text-xl mx-4 justify-center items-center mt-10 sm:mx-auto flex-col rounded-md max-w-[500px]   border-2 m-5 border-blue-500">
               <h1 class="text-xl m-4 text-deepBlue">

@@ -1,11 +1,10 @@
-import React, { useEffect, useState } from "react";
-import { Button, Checkbox, Form, Input } from "antd";
+import React, {  useState } from "react";
+import { Checkbox, Form, Input } from "antd";
 import men from "../image/men.png";
 import { Link, useNavigate } from "react-router-dom";
 import { axiosClient } from "../utils/axiosClient";
 import {
   Key_Access_Token,
-  countUser,
   count_User,
   setItem,
 } from "../utils/localStorage";
@@ -57,7 +56,7 @@ function Login() {
   //   countU();
   // }, []);
   return (
-    <div class="grid  lg:grid-cols-2 mx-auto lg:mx-72 items-center ">
+    <div class="grid  lg:grid-cols-2 mx-auto lg:mx-72 mb-4 items-center ">
       <div class="w-[580px] hidden lg:block mt-3 rounded-lg ">
         <img src={men} alt="" height="500px" width="400px" style={{}} />
       </div>
