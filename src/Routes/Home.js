@@ -21,6 +21,7 @@ import n2 from "../image/notes2.svg";
 import n3 from "../image/notes3.svg";
 import n4 from "../image/notes4.svg";
 import { useDispatch, useSelector } from "react-redux";
+import Footer from "./Footer";
 
 function Home() {
   const count = useSelector((state) => state.appConfigReducer.count);
@@ -30,7 +31,7 @@ function Home() {
 
   return (
     <>
-      <div class="    mt-6">
+      <div class="mt-6">
         <div className=" flex-col  lg:flex  hidden mx-auto sm:w-[400px] lg:w-[500px] mb-12  text-4xl justify-center text-blue-900    ">
           <h1 class="flex gap-3   ">
             <span class="underline">Welcome to </span>
@@ -194,7 +195,7 @@ function Home() {
         </>
       </div>
 
-      <div class="lg:flex hidden mb-28 relative  ">
+      <div class="lg:flex hidden mb-4 relative  ">
         <div class="p-3  mt-10 max-w-[500px] text-center ml-12">
           <div class="flex justify-center   text-justify items-center  text-xl text-blue-900  ">
             <p>
@@ -210,8 +211,13 @@ function Home() {
         <>
           {a ? (
             <div class="relative  p-44">
-              <div class="anni bottom-2 z-10 text-center  text-2xl justify-end items-center flex"> </div>
-            <div  class="mt-28 z-20  absolute w-[400px] text-3xl text-[#afdaf9] top-5 left-[200px]"> unofficial website of iiit pune</div>
+              <div class="anni bottom-2 z-10 text-center  text-2xl justify-end items-center flex">
+                {" "}
+              </div>
+              <div class="mt-28 z-20  absolute w-[400px] text-3xl text-[#afdaf9] top-5 left-[200px]">
+                {" "}
+                unofficial website of iiit pune
+              </div>
               {/* <div class="anni1 bottom-2 text-2xl justify-end items-center flex"> </div> */}
             </div>
           ) : (
@@ -243,6 +249,8 @@ function Home() {
           )}
         </>
       </div>
+
+      <Footer />
     </>
   );
 }
