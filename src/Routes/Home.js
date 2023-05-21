@@ -151,7 +151,7 @@ function Home() {
 
         <div class="p-3 lg:hidden justify-center items-center mt-16 max-w-[1200px] text-center mx-auto">
           <div class="flex justify-center  text-justify items-center  text-xl text-blue-900  ">
-            <p>
+            <p class=" p-3">
               Hello, welcome to notes website of IIIT Pune. In this website you
               will be provided with notes and lab materials for all semesters,
               along with PYQ papers. The site will also provide the PPTs that
@@ -195,7 +195,7 @@ function Home() {
         </>
       </div>
 
-      <div class="lg:flex hidden mb-4 relative  ">
+      <div class="lg:flex hidden mb-12  relative  ">
         <div class="p-3  mt-10 max-w-[500px] text-center ml-12">
           <div class="flex justify-center   text-justify items-center  text-xl text-blue-900  ">
             <p>

@@ -120,23 +120,23 @@ function Navbar() {
             </Link>
           </li>
 
-          <li class="hover:underline hover:bg-sky-500   p-2 rounded-md transition-all duration-500">
+          <li class="hover:underline  hover:bg-blue-600   p-2 rounded-md transition-all duration-500">
             <Link to="/user/notes" style={{ textDecoration: "none" }}>
               Notes
             </Link>
           </li>
-          <li class="hover:underline hover:bg-blue-600  p-2 rounded-md transition-all duration-500">
+          <li class="hover:underline hover:bg-sky-600   p-2 rounded-md transition-all duration-500">
             <Link to="/user/labs" style={{ textDecoration: "none" }}>
               Labs
             </Link>
           </li>
-          <li class="hover:underline hover:bg-sky-600  p-2 rounded-md transition-all duration-500">
+          <li class="hover:underline   hover:bg-sky-400 p-2 rounded-md transition-all duration-500">
             <Link to="/user/paper" style={{ textDecoration: "none" }}>
               Paper
             </Link>
           </li>
 
-          <li class="hover:underline hover:bg-sky-400 p-2 rounded-md transition-all duration-500">
+          <li class="hover:underline hover:bg-blue-500 p-2 rounded-md transition-all duration-500">
             <Link to="/user/creator" style={{ textDecoration: "none" }}>
               About_Me
             </Link>
@@ -162,7 +162,7 @@ function Navbar() {
                     Login
                   </Link>
                 </li>
-                <li class="hover:underline   p-2 rounded-md transition-all duration-500">
+                <li class="hover:underline hover:bg-green-600   p-2 rounded-md transition-all duration-500">
                   <Link to="/auth/signup" style={{ textDecoration: "none" }}>
                     SignUp
                   </Link>

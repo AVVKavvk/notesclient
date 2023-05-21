@@ -132,6 +132,53 @@ function A() {
              </div>
             </div>
           </div>
+          <div class="flex flex-col max-h-[300px]  justify-center items-center mx-auto">
+          <div class="rounded-xl flex-col flex justify-center items-center  w-[250px] h-[250px] mb-9 mt-2  ">
+          {" "}
+          <a  target="_blank" href="https://i.ibb.co/YZ5KYqR/ada.jpg" >
+            {" "}
+            <img
+              src="https://i.ibb.co/ZXdXtyq/ada.jpg"
+              alt="Adarsh Awasthi"
+             
+              width="200px"
+              height="200px"
+            />{" "}
+          </a>
+          <h1 class="text-center text-2xl mt-2 mb-1">Adarsh Awasthi</h1>
+          <h1 class="text-center text-xl flex justify-between  items-center">8349017915 </h1>
+         
+        </div>
+            <div class="flex flex-col w-[120px] space-y-3  ">
+              <div class="flex justify-between items-center">
+              <a  target="_blank" href="https://www.linkedin.com/in/adarsh-awasthi-511247255/">
+                {" "}
+                <BsLinkedin />{" "}
+              </a>
+              <a  target="_blank" href="https://github.com/adarshawasthi29">
+                {" "}
+                <FaGithubSquare />
+              </a>
+              <a  target="_blank" href="https://www.instagram.com/adarshawasthi127/">
+                {" "}
+                <FaInstagramSquare />
+              </a>
+              <a  target="_blank" href="https://www.codechef.com/users/adarshawasthi1">
+                {" "}
+                <SiCodechef />
+              </a>
+            
+              <a  target="_blank" href="https://leetcode.com/adarshawasthi_29/">
+                {" "}
+                <SiLeetcode />
+              </a>
+              </div>
+             <div class="flex justify-between items-center">
+             
+              
+             </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -13,12 +13,12 @@ function Footer() {
     <div class=" bg-[#4c97e2]">
 
    
-    <div class=" sm:h-[270px] pb-10 md:pb-20 mx-auto max-w-[1200px] px-5 space-y-10 bg-[#63a3e3] ">
+    <div class=" md:h-[300px]   pb-10  md:pb-20 mx-auto max-w-[1200px] px-5 space-y-10 bg-[#63a3e3] ">
       <div class="flex flex-col py-8 sm:flex-row items-center ">
-        <div class="flex flex-col  justify-center   text-justify items-center  pb-5  text-2xl text-white  ">
+        <div class="flex flex-col  justify-center    text-justify items-center  pb-5  text-2xl text-white  ">
           {" "}
-          <h1 class="text-2xl mt-4 mb-4">Acknowledgement for Design</h1>
-          <div class="flex justify-center items-center ">
+          <h1 class="text-2xl mt-4  mb-4">Acknowledgement for Design</h1>
+          <div class="flex justify-center  items-center ">
             <div class="flex flex-col text-center justify-center items-center mx-auto">
               <img
                 src="https://i.ibb.co/qDKWyrj/deep.jpg"
@@ -39,17 +39,17 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div class="hidden h-[150px] z-30 w-[1px]  sm:mr-2 md:ml-52 bg-[#fff] lg:block"></div>
-        <div class="flex flex-col text-3xl justify-center   text-justify items-center  pb-5   text-white  ">
+        <div class="hidden h-[200px] z-30 w-[1px]  sm:mr-2 md:ml-52 bg-[#fff] lg:block"></div>
+        <div class="flex flex-col mx-auto text-3xl justify-center   text-justify items-center  pb-5   text-white  ">
           {" "}
-          <h1>
+          <h1 class=" mt-5">
             {" "}
             <a href="https://www.iiitp.ac.in/" target="_blank">
               IIIT Pune
             </a>
           </h1>
           <div class=" flex justify-center items-center flex-col mb-2  ">
-            <div class="flex justify-center sm:justify-between items-center gap-2 sm:gap-5 px-3 text-xl text-red-700 mt-4">
+            <div class="flex justify-center sm:justify-between items-center gap-2 sm:gap-5 px-3 text-xl text-red-600 mt-4">
               <a
                 href="https://placements.iiitp.ac.in/"
                 target="_blank"
