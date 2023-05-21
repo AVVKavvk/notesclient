@@ -1,9 +1,6 @@
-import React from 'react'
-
+import React from "react";
 function Sem5() {
-  return (
-    <div>Sem5</div>
-  )
+  return <div></div>;
 }
 
-export default Sem5
+export default Sem5;

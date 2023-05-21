@@ -56,7 +56,7 @@ function Navbar() {
       key: "5",
       label: (
         <Link to="/user/creator" rel="noopener noreferrer">
-          Creator
+          About Me
         </Link>
       ),
     },

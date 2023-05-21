@@ -20,6 +20,7 @@ function Labs() {
   return (
     <>
       {(a!=10 && a!=undefined) ? (
+        <div class="grid grid-cols-1 justify-center items-center mx-auto ">
         <div class="grid  grid-cols-2 sm:grid-cols-3  lg:grid-cols-6 mt-6 justify-center items-center mx-auto space-x-4 sm:space-x-10 lg:mt-2 sm:space-y-8  max-w-[1200px]  space-y-6 ">
           <Link to="/user/labs/sem1">
             <div class="w-[150px] p-1 h-[20px] text-xl rounded-lg items-center text-center mt-5 gap-4 ml-4 sm:ml-10  sm:mt-7 lg:mt-9 justify-center flex bg-blue-200">
@@ -70,6 +71,7 @@ function Labs() {
             </div>
           </Link>
 
+        </div>
           <Outlet />
         </div>
       ) : (

@@ -7,10 +7,10 @@ function Notes() {
 
   useEffect(() => {}, [a]);
 
-  a = getItem(Key_Access_Token);
+  // a = getItem(Key_Access_Token);
   // const a = 10;
   function AA() {
-    console.log("vipin");
+    // console.log("vipin");
     setTimeout(() => {
       navigate("/auth/login");
     }, 100);
@@ -19,7 +19,7 @@ function Notes() {
   const navigate = useNavigate();
   return (
     <>
-      {(a!=10 && a!=undefined)? (
+      {(a==10 && a!=undefined)? (
         <div class="grid grid-cols-1 justify-center items-center mx-auto ">
         <div class="grid  grid-cols-2 sm:grid-cols-3  lg:grid-cols-6 mt-6 justify-center items-center mx-auto space-x-4 sm:space-x-10 lg:mt-2 sm:space-y-8  max-w-[1200px]  space-y-6 ">
           <Link to="/user/notes/sem1">

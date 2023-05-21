@@ -35,6 +35,7 @@ import { useEffect, useRef } from "react";
 import LoadingBar from "react-top-loading-bar";
 import Visitor from "./Routes/Visitor";
 import Creator from "./Routes/Creator";
+import Unavaiable from "./Routes/Unavaiable";
 export const TOAST_SUCCESS = "toast_success";
 export const TOAST_ERROR = "toast_error";
 function App() {
@@ -96,13 +97,16 @@ function App() {
           <Route path="sem2" element={<Seml2 />} />
           <Route path="sem3" element={<Seml3 />} />
           <Route path="sem4" element={<Seml4 />} />
-          <Route path="sem5" element={<Seml5 />} />
-          <Route path="sem6" element={<Seml6 />} />
+          <Route path="sem5" element={<Unavaiable />} />
+          <Route path="sem6" element={<Unavaiable />} />
+          {/* <Route path="sem5" element={<Seml5 />} /> */}
+          {/* <Route path="sem6" element={<Seml6 />} /> */}
         </Route>
         <Route path="/auth/login" element={<Login />} />
         <Route path="/auth/signup" element={<Signup />} />
         <Route path="/auth/visitor" element={<Visitor />} />
         <Route path="/user/creator" element={<Creator />} />
+      
 
       </Routes>
     </div>

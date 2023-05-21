@@ -4,7 +4,7 @@ import lll from '../image/l2l.png'
 import llll from '../image/l2ll.svg'
 function Sem2() {
   return (
-    <div class=" sm:w-[600px]  md:max-w-[1000px] grid grid-cols-1  sm:grid-cols-3 relative gap-2 pt-4 space-y-5  sm:space-x-3 p-5 sm:space-y-5 mt-8 overflow-hidden">
+    <div class=" sm:w-[600px] mx-auto  md:max-w-[1000px] grid grid-cols-1  sm:grid-cols-3 relative gap-2 pt-4 space-y-5  sm:space-x-3 p-5 sm:space-y-5 mt-8 overflow-hidden">
     <div class="relative flex flex-col justify-center sm:mt-10 items-center text-center mt-10  w-full sm:h-[250px] space-x-16  px-5 ">
       <div>
       <a
