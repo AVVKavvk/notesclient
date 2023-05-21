@@ -214,9 +214,9 @@ function Home() {
               <div class="anni bottom-2 z-10 text-center  text-2xl justify-end items-center flex">
                 {" "}
               </div>
-              <div class="mt-28 z-20  absolute w-[400px] text-3xl text-[#afdaf9] top-5 left-[200px]">
+              <div class="mt-28 z-20  absolute w-[400px] text-3xl text-[#afdaf9] top-5 left-[170px]">
                 {" "}
-                unofficial website of iiit pune
+                Notes website of iiit pune
               </div>
               {/* <div class="anni1 bottom-2 text-2xl justify-end items-center flex"> </div> */}
             </div>

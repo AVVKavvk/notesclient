@@ -10,9 +10,12 @@ import { SiCodeforces } from "react-icons/si";
 import { SiLeetcode } from "react-icons/si";
 function Footer() {
   return (
-    <div class=" w-screen sm:h-[270px] pb-10 md:pb-20 px-5 space-y-10 bg-[#73afec] ">
+    <div class=" bg-[#73afec]">
+
+   
+    <div class=" sm:h-[270px] pb-10 md:pb-20 mx-auto max-w-[1200px] px-5 space-y-10 bg-[#73afec] ">
       <div class="flex flex-col py-8 sm:flex-row items-center ">
-        <div class="flex flex-col  justify-center w-screen  text-justify items-center  pb-5  text-2xl text-white  ">
+        <div class="flex flex-col  justify-center   text-justify items-center  pb-5  text-2xl text-white  ">
           {" "}
           <h1 class="text-2xl mt-4 mb-4">Acknowledgement for Design</h1>
           <div class="flex justify-center items-center ">
@@ -36,8 +39,8 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div class="hidden h-[150px] z-30 w-[1px]  sm:mr-2 md:ml-52 bg-[#fff] md:block"></div>
-        <div class="flex flex-col text-3xl justify-center w-screen  text-justify items-center  pb-5   text-white  ">
+        <div class="hidden h-[150px] z-30 w-[1px]  sm:mr-2 md:ml-52 bg-[#fff] lg:block"></div>
+        <div class="flex flex-col text-3xl justify-center   text-justify items-center  pb-5   text-white  ">
           {" "}
           <h1>
             {" "}
@@ -82,6 +85,7 @@ function Footer() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }
