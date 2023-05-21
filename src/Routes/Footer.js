@@ -13,7 +13,7 @@ function Footer() {
     <div class=" bg-[#4c97e2]">
 
    
-    <div class=" md:h-[300px]   pb-10  md:pb-20 mx-auto max-w-[1200px] px-5 space-y-10 bg-[#63a3e3] ">
+    <div class=" md:h-[300px]    pb-10  md:pb-20 mx-auto max-w-[1200px] px-5 space-y-10 bg-[#63a3e3] ">
       <div class="flex flex-col py-8 sm:flex-row items-center ">
         <div class="flex flex-col  justify-center    text-justify items-center  pb-5  text-2xl text-white  ">
           {" "}
@@ -48,8 +48,8 @@ function Footer() {
               IIIT Pune
             </a>
           </h1>
-          <div class=" flex justify-center items-center flex-col mb-2  ">
-            <div class="flex justify-center sm:justify-between items-center gap-2 sm:gap-5 px-3 text-xl text-red-600 mt-4">
+          <div class=" flex justify-center  items-center flex-col mb-2  ">
+            <div class=" grid grid-cols-3 sm:flex  justify-center sm:justify-between items-center sm:gap-5 px-3 text-xl text-red-600 mt-4">
               <a
                 href="https://placements.iiitp.ac.in/"
                 target="_blank"
@@ -60,14 +60,14 @@ function Footer() {
               <a
                 href="https://www.iiitp.ac.in/contact-us"
                 target="_blank"
-                class="hover:underline transition-all duration-200"
+                class="hover:underline transition-all ml-6 sm:ml-0 duration-200"
               >
                 Contact
               </a>
               <a
                 href="https://www.iiitp.ac.in/page/faculty-0"
                 target="_blank"
-                class="hover:underline transition-all duration-200"
+                class="hover:underline transition-all ml-4 sm:ml-0 duration-200"
               >
                 Faculty
               </a>

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Visitor() {
   return (
-    <div class=" flex flex-col justify-center items-start mx-auto text-justify w-[350px] sm:w-[600px] h-[60vh]">
+    <div class=" flex flex-col px-3 justify-center items-start mx-auto text-justify  sm:w-[600px] h-[60vh]">
       <h1 class="text-2xl">
         {" "}
         Want to know, how many users have logged in, then login again
