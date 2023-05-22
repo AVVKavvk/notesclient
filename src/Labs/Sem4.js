@@ -9,7 +9,7 @@ function Sem4() {
     <div class="relative flex flex-col justify-center items-center text-center  w-full h-[250px] space-x-16  px-5 ">
       <div>
       <a
-        href="#"
+        href="https://drive.google.com/drive/folders/1Z5mkWxyX7SOkq_tbCW_W3GJLBGjk0iNQ?usp=share_link"
         target="_blank"
       >
         <div>
@@ -26,7 +26,7 @@ function Sem4() {
     <div class="relative flex flex-col justify-center items-center text-center  w-full h-[250px] space-x-16  px-5 ">
       <div>
       <a
-        href="#"
+        href="https://drive.google.com/drive/folders/1E1ngaaFM620lUyfMBJxZKsgMOZ41QBAu?usp=share_link"
         target="_blank"
       >
         <div>
@@ -43,7 +43,7 @@ function Sem4() {
     <div class="relative flex flex-col justify-center items-center text-center  w-full h-[250px] space-x-16  px-5 ">
       <div>
       <a
-        href="#"
+        href="https://drive.google.com/drive/folders/1XkGOTf2sIFBE2A-UElLhrYyFjfzgP1ll?usp=share_link"
         target="_blank"
       >
         <div>
@@ -60,7 +60,7 @@ function Sem4() {
     <div class="relative flex flex-col justify-center items-center text-center  w-full h-[250px] space-x-16  px-5 ">
       <div>
       <a
-        href="#"
+        href="https://drive.google.com/drive/folders/1h1PXHsIUVnC42LQ700FyhlbvLWVV2Hq1?usp=share_link"
         target="_blank"
       >
         <div>

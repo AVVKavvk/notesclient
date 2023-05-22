@@ -20,22 +20,23 @@ function Footer() {
           <h1 class="text-2xl mt-4  mb-4">Acknowledgement for Design</h1>
           <div class="flex justify-center  items-center ">
             <div class="flex flex-col text-center justify-center items-center mx-auto">
-              <img
-                src="https://i.ibb.co/qDKWyrj/deep.jpg"
+             <a href="https://i.ibb.co/gF16qDF/deep.jpg" target="_blank"> <img
+                src="https://i.ibb.co/gF16qDF/deep.jpg"
                 width="100px"
                 height="100px"
                 alt=""
-              />
+              /></a>
               <div>
                 <h1 class="text-2xl mx-6">Deepesh Patil </h1>
               </div>
             </div>
+            
             <div class="grid grid-cols-5 w-[200px]  pb-7 justify-center items-center ">
-              <BsLinkedin />
-              <FaGithubSquare />
-              <FaInstagramSquare />
-              <SiCodechef />
-              <SiCodeforces />
+             <a href="https://www.linkedin.com/in/deepesh-patil-103a87258/" target="_blank"> <BsLinkedin /> </a>
+            <a href="https://github.com/NerdyGamer611" target="_blank">  <FaGithubSquare /> </a>
+             <a href="https://www.instagram.com/_deepesh_v.p/" target="_blank"> <FaInstagramSquare /> </a>
+             <a href="https://www.codechef.com/users/imalegend" target="_blank"> <SiCodechef /> </a>
+             <a href="https://codeforces.com/profile/nerdygamer" target="_blank"> <SiCodeforces /> </a>
             </div>
           </div>
         </div>

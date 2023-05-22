@@ -73,14 +73,14 @@ function Creator() {
           </div>
           <div class="flex  text-center   space-x-4 items-center justify-start">
             <FaGithubSquare />
-            <a href="https://github.com/AVVKavvk">
+            <a href="https://github.com/AVVKavvk" target="_blank">
               {" "}
               <h1>Github</h1>{" "}
             </a>
           </div>
           <div class="flex  text-center   space-x-4 items-center justify-start">
             <FaInstagramSquare />
-            <a href="https://www.instagram.com/k.vip_in/">
+            <a href="https://www.instagram.com/k.vip_in/" target="_blank">
               {" "}
               <h1>Instagram</h1>{" "}
             </a>

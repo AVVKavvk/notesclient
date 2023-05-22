@@ -30,7 +30,7 @@ function Sem2() {
           </svg>
           <h1 class="absolute z-10 top-[30px] left-[40px] text-2xl  ">EM2</h1>
         </div>
-        <a href="#" rel="noreferrer" target="_blank">
+        <a href="https://drive.google.com/file/d/1j-IAOJPffkvV45IAPdHUZiHFhoEgctc-/view?usp=share_link" rel="noreferrer" target="_blank">
           <div>
             <img
               src={ll}
@@ -69,7 +69,7 @@ function Sem2() {
           </svg>
           <h1 class="absolute z-10 top-[30px] left-[40px] text-2xl  ">DLD</h1>
         </div>
-        <a href="#" rel="noreferrer" target="_blank">
+        <a href="https://drive.google.com/file/d/1j-CiGJV4BsmMOUBXhzR-nPxsymIDut3X/view?usp=share_link" rel="noreferrer" target="_blank">
           <div>
             <img
               src={ll}
@@ -108,7 +108,7 @@ function Sem2() {
           </svg>
           <h1 class="absolute z-10 top-[30px] left-[35px] text-2xl  ">OOPL</h1>
         </div>
-        <a href="#" rel="noreferrer" target="_blank">
+        <a href="https://drive.google.com/file/d/1j4W5iOQPIBqwJgPCaa6KKTQEXVRyakvQ/view?usp=share_link" rel="noreferrer" target="_blank">
           <div>
             <img
               src={ll}
@@ -147,7 +147,7 @@ function Sem2() {
           </svg>
           <h1 class="absolute z-10 top-[30px] left-[40px] text-2xl  ">DSA</h1>
         </div>
-        <a href="#" rel="noreferrer" target="_blank">
+        <a href="https://drive.google.com/drive/folders/1gcwZRSP8Anh4flMgsEb13JmGx87QT2pc?usp=share_link" rel="noreferrer" target="_blank">
           <div>
             <img
               src={ll}
@@ -160,7 +160,7 @@ function Sem2() {
         </a>
       </div>
       <div class="relative flex flex-col space-x-6 ">
-        <div class="h-[120px]">  
+        <div class="h-[120px]">
           <svg
             viewBox="0 0 349.32501220703125 225"
             xmlns="http://www.w3.org/2000/svg"
@@ -188,7 +188,7 @@ function Sem2() {
             Humanity
           </h1>
         </div>
-        <a href="#" rel="noreferrer" target="_blank">
+        <a href="https://drive.google.com/drive/folders/1hlXOawka6aBsdVE4YYCkPo20Fk48HHXU?usp=share_link" rel="noreferrer" target="_blank">
           <div>
             <img
               src={ll}
@@ -227,7 +227,7 @@ function Sem2() {
           </svg>
           <h1 class="absolute z-10 top-[30px] left-[50px] text-2xl  ">ES</h1>
         </div>
-        <a href="#" rel="noreferrer" target="_blank">
+        <a href="https://drive.google.com/drive/folders/1hIlY8wXowu9aHptpRIi6p02_bt_zHYfS?usp=share_link" rel="noreferrer" target="_blank">
           <div>
             <img
               src={ll}
@@ -266,7 +266,11 @@ function Sem2() {
           </svg>
           <h1 class="absolute z-10 top-[30px] left-[40px] text-2xl  ">CNV</h1>
         </div>
-        <a href="#" rel="noreferrer" target="_blank">
+        <a
+          href="https://drive.google.com/drive/folders/1gVJFQYb6TJHRCv6lVc3rQ-hwIGkBURON?usp=share_link"
+          rel="noreferrer"
+          target="_blank"
+        >
           <div>
             <img
               src={ll}

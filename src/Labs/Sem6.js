@@ -2,7 +2,8 @@ import React from 'react'
 
 function Sem6() {
   return (
-    <div>Sem6</div>
+    <div class="flex mx-auto  justify-center items-center h-[60vh]">
+        <h1 class="text-2xl p-9 rounded-lg  bg-red-300"> Currently Unavaiable </h1></div>
   )
 }
 

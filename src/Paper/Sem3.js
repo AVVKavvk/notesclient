@@ -6,7 +6,7 @@ function Sem3() {
     <div class="relative flex sm:mt-5 flex-col  justify-center items-center text-center  w-full h-[250px] space-x-16  px-5 ">
       <div>
       <a
-        href="#"
+        href="https://drive.google.com/file/d/1BG31B_W5ce_eiCSoq7yZng6fO9cd84Wh/view?usp=share_link"
         target="_blank"
       >
         <div>
@@ -23,7 +23,7 @@ function Sem3() {
     <div class="relative flex flex-col justify-center items-center text-center  w-full h-[250px] space-x-16  px-5 ">
       <div>
       <a
-        href="#"
+        href="https://drive.google.com/file/d/17kqHaZD4l-h04dz3W788QHl-4REZniGP/view?usp=share_link"
         target="_blank"
       >
         <div>
@@ -40,7 +40,7 @@ function Sem3() {
     <div class="relative flex flex-col justify-center items-center text-center  w-full h-[250px] space-x-16  px-5 ">
       <div>
       <a
-        href="#"
+        href="https://drive.google.com/file/d/199OGzwUqESp6NMABcfv9d_a9fv9l3Ctw/view?usp=share_link"
         target="_blank"
       >
         <div>

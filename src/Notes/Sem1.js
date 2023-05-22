@@ -1,10 +1,11 @@
-import React from 'react'
-import ll from '../image/logo2.svg'
+import React from "react";
+import ll from "../image/logo2.svg";
+import { Link } from "react-router-dom";
 function Sem1() {
   return (
     <div class=" lg:w-[1200px] grid sm:grid-cols-3 grid-cols-2 space-y-5 lg:space-y-0 ml-6 lg:mx-auto lg:grid-cols-7 relative  justify-evenly  mt-8 overflow-hidden">
       <div class="relative flex flex-col p-0 mt-[20px] lg:mt-0 space-x-6 space-y-3   ">
-        <div class="h-[120px]" >
+        <div class="h-[120px]">
           <svg
             viewBox="0 0 349.32501220703125 225"
             xmlns="http://www.w3.org/2000/svg"
@@ -28,20 +29,23 @@ function Sem1() {
               fill="#83c8d0"
             ></path>
           </svg>
-          <h1 class="absolute z-10 top-[30px] left-[40px] text-2xl  ">
-            EM1
-          </h1>
+          <h1 class="absolute z-10 top-[30px] left-[40px] text-2xl  ">EM1</h1>
         </div>
         <a
-          href="#"
-           rel="noreferrer" target="_blank"
+          href="https://drive.google.com/file/d/1feuCDT81kz0gjC5gLk9qJWpr-djgvHMe/view?usp=share_link"
+          rel="noreferrer"
+          target="_blank"
         >
           <div>
-            <img src={ll} alt=""  class="hover:scale-110 transition-all duration-500" height="100px"  width="100px"  />
+            <img
+              src={ll}
+              alt=""
+              class="hover:scale-110 transition-all duration-500"
+              height="100px"
+              width="100px"
+            />
           </div>
         </a>
-       
-        
       </div>
       <div class="relative flex  flex-col w-full  space-x-6  ">
         <div class="h-[120px]">
@@ -68,19 +72,23 @@ function Sem1() {
               fill="#83c8d0"
             ></path>
           </svg>
-          <h1 class="absolute z-10 top-[30px] left-[50px] text-2xl  ">
-            BEE
-          </h1>
+          <h1 class="absolute z-10 top-[30px] left-[50px] text-2xl  ">BEE</h1>
         </div>
         <a
-          href="#"
-           rel="noreferrer" target="_blank"
+          href="https://drive.google.com/file/d/1fJNv3helu8odkuGWwYs_C6qtKXCcc9Bh/view?usp=share_link"
+          rel="noreferrer"
+          target="_blank"
         >
           <div>
-            <img src={ll} alt=""  class="hover:scale-110 transition-all duration-500" height="100px"  width="100px"  />
+            <img
+              src={ll}
+              alt=""
+              class="hover:scale-110 transition-all duration-500"
+              height="100px"
+              width="100px"
+            />
           </div>
         </a>
-        
       </div>
       <div class="relative flex flex-col  w-full  space-x-6   ">
         <div class="h-[120px]">
@@ -107,19 +115,23 @@ function Sem1() {
               fill="#83c8d0"
             ></path>
           </svg>
-          <h1 class="absolute z-10 top-[30px] left-[35px] text-2xl  ">
-            CPCP
-          </h1>
+          <h1 class="absolute z-10 top-[30px] left-[35px] text-2xl  ">CPCP</h1>
         </div>
         <a
-          href="#"
-           rel="noreferrer" target="_blank"
+          href="https://drive.google.com/file/d/1f_OkAVi5vW6SkrtgX26Hv_Jd_w95WT7k/view?usp=share_link"
+          rel="noreferrer"
+          target="_blank"
         >
           <div>
-            <img src={ll} alt=""  class="hover:scale-110 transition-all duration-500" height="100px"  width="100px"  />
+            <img
+              src={ll}
+              alt=""
+              class="hover:scale-110 transition-all duration-500"
+              height="100px"
+              width="100px"
+            />
           </div>
         </a>
-        
       </div>
       <div class="relative flex  flex-col w-full  space-x-6   ">
         <div class="h-[120px]">
@@ -146,19 +158,23 @@ function Sem1() {
               fill="#83c8d0"
             ></path>
           </svg>
-          <h1 class="absolute z-10 top-[30px] left-[40px] text-2xl  ">
-            FoCS
-          </h1>
+          <h1 class="absolute z-10 top-[30px] left-[40px] text-2xl  ">FoCS</h1>
         </div>
         <a
-          href="#"
-           rel="noreferrer" target="_blank"
+          href="https://drive.google.com/file/d/1ff88bhrtrssiUah-Qq7kYfnXHHG9tMN5/view?usp=share_link"
+          rel="noreferrer"
+          target="_blank"
         >
           <div>
-            <img src={ll} alt=""  class="hover:scale-110 transition-all duration-500" height="100px"  width="100px"  />
+            <img
+              src={ll}
+              alt=""
+              class="hover:scale-110 transition-all duration-500"
+              height="100px"
+              width="100px"
+            />
           </div>
         </a>
-        
       </div>
       <div class="relative flex flex-col w-full  space-x-6   ">
         <div class="h-[120px]">
@@ -185,19 +201,23 @@ function Sem1() {
               fill="#83c8d0"
             ></path>
           </svg>
-          <h1 class="absolute z-10 top-[30px] left-[40px] text-2xl  ">
-            Inno
-          </h1>
+          <h1 class="absolute z-10 top-[30px] left-[40px] text-2xl  ">Inno</h1>
         </div>
         <a
-          href="#"
-           rel="noreferrer" target="_blank"
+          href="https://drive.google.com/drive/folders/1jpMGMkfuMfOt3e1LEILD9LEhw0Sz3HyD?usp=share_link"
+          rel="noreferrer"
+          target="_blank"
         >
           <div>
-            <img src={ll} alt=""  class="hover:scale-110 transition-all duration-500" height="100px"  width="100px"  />
+            <img
+              src={ll}
+              alt=""
+              class="hover:scale-110 transition-all duration-500"
+              height="100px"
+              width="100px"
+            />
           </div>
         </a>
-        
       </div>
       <div class="relative flex flex-col w-full  space-x-6   ">
         <div class="h-[120px]">
@@ -224,19 +244,23 @@ function Sem1() {
               fill="#83c8d0"
             ></path>
           </svg>
-          <h1 class="absolute z-10 top-[30px] left-[40px] text-2xl  ">
-            EVS
-          </h1>
+          <h1 class="absolute z-10 top-[30px] left-[40px] text-2xl  ">EVS</h1>
         </div>
         <a
-          href="#"
-           rel="noreferrer" target="_blank"
+          href="https://drive.google.com/drive/folders/1g4kA7BoUmLe3o6jIqZMJTBpD6zXokStu?usp=share_link"
+          rel="noreferrer"
+          target="_blank"
         >
           <div>
-            <img src={ll} alt=""  class="hover:scale-110 transition-all duration-500" height="100px"  width="100px"  />
+            <img
+              src={ll}
+              alt=""
+              class="hover:scale-110 transition-all duration-500"
+              height="100px"
+              width="100px"
+            />
           </div>
         </a>
-        
       </div>
       <div class="relative flex flex-col  w-full  space-x-6   ">
         <div class="h-[120px]">
@@ -263,23 +287,26 @@ function Sem1() {
               fill="#83c8d0"
             ></path>
           </svg>
-          <h1 class="absolute z-10 top-[30px] left-[40px] text-2xl  ">
-            LWS
-          </h1>
+          <h1 class="absolute z-10 top-[30px] left-[40px] text-2xl  ">LWS</h1>
         </div>
         <a
-          href="#"
-           rel="noreferrer" target="_blank"
+          href="https://drive.google.com/drive/folders/1ALVQ8ot7FqBvi5aMxCAQe8s7YGjy-d7g?usp=share_link"
+          rel="noreferrer"
+          target="_blank"
         >
           <div>
-            <img src={ll} alt=""  class="hover:scale-110 transition-all duration-500" height="100px"  width="100px"  />
+            <img
+              src={ll}
+              alt=""
+              class="hover:scale-110 transition-all duration-500"
+              height="100px"
+              width="100px"
+            />
           </div>
         </a>
-        
       </div>
-      
     </div>
-  )
+  );
 }
 
-export default Sem1
+export default Sem1;

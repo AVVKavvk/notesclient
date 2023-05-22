@@ -218,15 +218,7 @@ function Sem4() {
             />
           </div>
         </a>
-        <div class="">
-          <img
-            src={ll}
-            alt=""
-            class="hover:scale-110 transition-all duration-500"
-            height="100px"
-            width="100px"
-          />
-        </div>
+       
       </div>
       <div class="relative flex flex-col  space-x-6 ">
         <div class="h-[120px]">
@@ -270,15 +262,7 @@ function Sem4() {
             />
           </div>
         </a>
-        <div class="">
-          <img
-            src={ll}
-            alt=""
-            class="hover:scale-110 transition-all duration-500"
-            height="100px"
-            width="100px"
-          />
-        </div>
+       
       </div>
       <div class="relative flex flex-col  space-x-6 ">
         <div class="h-[120px]">

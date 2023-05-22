@@ -6,7 +6,7 @@ function Sem6() {
     <div class="relative sm:mt-5 flex flex-col justify-center items-center text-center  w-full h-[250px] space-x-16  px-5 ">
       <div>
       <a
-        href="#"
+        href="https://drive.google.com/file/d/1T7X4WGvmabAXFWSTqM-RrTaWGVDNaP71/view?usp=share_link"
         target="_blank"
       >
         <div>
@@ -23,7 +23,7 @@ function Sem6() {
     <div class="relative flex flex-col justify-center items-center text-center  w-full h-[250px] space-x-16  px-5 ">
       <div>
       <a
-        href="#"
+        href="https://drive.google.com/file/d/1mKAe2Dazbb9gA4H-YEiNYEcaoQlWlRLy/view?usp=share_link"
         target="_blank"
       >
         <div>
@@ -40,7 +40,7 @@ function Sem6() {
     <div class="relative flex flex-col justify-center items-center text-center  w-full h-[250px] space-x-16  px-5 ">
       <div>
       <a
-        href="#"
+        href="https://drive.google.com/file/d/1OD2zcDwuhKUWf9uQQ2sxFUUFODQ1qa4E/view?usp=share_link"
         target="_blank"
       >
         <div>
