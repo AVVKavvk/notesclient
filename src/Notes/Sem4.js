@@ -35,7 +35,7 @@ function Sem4() {
           rel="noreferrer"
           target="_blank"
         >
-          <div>
+                     <div class="group relative">
             <img
               src={ll}
               alt=""
@@ -43,6 +43,9 @@ function Sem4() {
               height="100px"
               width="100px"
             />
+             <div class="sm:group-hover:block -top-3 bg-red-300 p-1  rounded-lg -left-3 absolute hidden">
+              Sourish
+            </div>
           </div>
         </a>
       </div>
@@ -79,7 +82,7 @@ function Sem4() {
           rel="noreferrer"
           target="_blank"
         >
-          <div>
+                     <div class="group relative">
             <img
               src={ll}
               alt=""
@@ -87,6 +90,9 @@ function Sem4() {
               height="100px"
               width="100px"
             />
+             <div class="sm:group-hover:block -top-3 bg-red-300 p-1  rounded-lg -left-3 absolute hidden">
+              Sourish
+            </div>
           </div>
         </a>
       </div>
@@ -122,7 +128,7 @@ function Sem4() {
           rel="noreferrer"
           target="_blank"
         >
-          <div>
+                    <div class="group relative">
             <img
               src={ll}
               alt=""
@@ -130,6 +136,9 @@ function Sem4() {
               height="100px"
               width="100px"
             />
+             <div class="sm:group-hover:block -top-3 bg-red-300 p-1  rounded-lg -left-3 absolute hidden">
+              Sourish
+            </div>
           </div>
         </a>
       </div>
@@ -165,7 +174,7 @@ function Sem4() {
           rel="noreferrer"
           target="_blank"
         >
-          <div>
+           <div class="group relative">
             <img
               src={ll}
               alt=""
@@ -173,6 +182,9 @@ function Sem4() {
               height="100px"
               width="100px"
             />
+             <div class="sm:group-hover:block -top-3 bg-red-300 p-1  rounded-lg -left-3 absolute hidden">
+              Sourish
+            </div>
           </div>
         </a>
       </div>
@@ -208,7 +220,7 @@ function Sem4() {
           rel="noreferrer"
           target="_blank"
         >
-          <div>
+                     <div class="group relative">
             <img
               src={ll}
               alt=""
@@ -216,6 +228,9 @@ function Sem4() {
               height="100px"
               width="100px"
             />
+             <div class="sm:group-hover:block -top-3 bg-red-300 p-1  rounded-lg -left-3 absolute hidden">
+              Sourish
+            </div>
           </div>
         </a>
        
@@ -252,7 +267,7 @@ function Sem4() {
           rel="noreferrer"
           target="_blank"
         >
-          <div>
+           <div class="group relative">
             <img
               src={ll}
               alt=""
@@ -260,6 +275,9 @@ function Sem4() {
               height="100px"
               width="100px"
             />
+             <div class="sm:group-hover:block -top-3 bg-red-300 p-1  rounded-lg -left-3 absolute hidden">
+              Sourish
+            </div>
           </div>
         </a>
        
@@ -296,7 +314,7 @@ function Sem4() {
           rel="noreferrer"
           target="_blank"
         >
-          <div>
+                     <div class="group relative">
             <img
               src={ll}
               alt=""
@@ -304,6 +322,9 @@ function Sem4() {
               height="100px"
               width="100px"
             />
+             <div class="sm:group-hover:block -top-3 bg-yellow-300 p-1  rounded-lg -left-3 absolute hidden">
+             Saurabh
+            </div>
           </div>
         </a>
       </div>
@@ -339,7 +360,7 @@ function Sem4() {
           rel="noreferrer"
           target="_blank"
         >
-          <div>
+                    <div class="group relative">
             <img
               src={ll}
               alt=""
@@ -347,6 +368,9 @@ function Sem4() {
               height="100px"
               width="100px"
             />
+             <div class="sm:group-hover:block -top-3 bg-yellow-300 p-1  rounded-lg -left-3 absolute hidden">
+             Saurabh
+            </div>
           </div>
         </a>
       </div>
@@ -382,7 +406,7 @@ function Sem4() {
           rel="noreferrer"
           target="_blank"
         >
-          <div>
+                   <div class="group relative">
             <img
               src={ll}
               alt=""
@@ -390,6 +414,9 @@ function Sem4() {
               height="100px"
               width="100px"
             />
+             <div class="sm:group-hover:block -top-3 bg-yellow-300 p-1  rounded-lg -left-3 absolute hidden">
+             Saurabh
+            </div>
           </div>
         </a>
       </div>

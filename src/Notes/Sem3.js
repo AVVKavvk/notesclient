@@ -36,16 +36,34 @@ function Sem3() {
           href="https://drive.google.com/drive/folders/1WLXjoYXKP0DAJExa-aTEdUEOl-3sPwut"
            rel="noreferrer" target="_blank"
         >
-          <div>
-            <img src={ll} alt=""  class="hover:scale-110 transition-all duration-500" height="100px"  width="100px"  />
+           <div class="group relative">
+            <img
+              src={ll}
+              alt=""
+              class="hover:scale-110 transition-all duration-500"
+              height="100px"
+              width="100px"
+            />
+             <div class="sm:group-hover:block -top-3 bg-violet-700 p-1  rounded-md px-2 text-white -left-3 absolute hidden">
+              Sir
+            </div>
           </div>
         </a>
         <a
           href="https://drive.google.com/file/d/1C-he-morVvaTzZXPx97mzwBRss11BqGi/view?usp=share_link"
            rel="noreferrer" target="_blank"
         >
-          <div>
-            <img src={ll} alt=""  class="hover:scale-110 transition-all duration-500" height="100px"  width="100px"  />
+           <div class="group relative">
+            <img
+              src={ll}
+              alt=""
+              class="hover:scale-110 transition-all duration-500"
+              height="100px"
+              width="100px"
+            />
+             <div class="sm:group-hover:block -top-3 bg-red-300 p-1  rounded-lg -left-3 absolute hidden">
+              Sourish
+            </div>
           </div>
         </a>
        
@@ -83,16 +101,34 @@ function Sem3() {
           href="https://drive.google.com/file/d/1fDFQuvAqtRTMS9iQsSGtFZR2VlcJyZKn/view?usp=share_link"
            rel="noreferrer" target="_blank"
         >
-          <div>
-            <img src={ll} alt=""  class="hover:scale-110 transition-all duration-500" height="100px"  width="100px"  />
+           <div class="group relative">
+            <img
+              src={ll}
+              alt=""
+              class="hover:scale-110 transition-all duration-500"
+              height="100px"
+              width="100px"
+            />
+             <div class="sm:group-hover:block -top-3 bg-red-300 p-1  rounded-lg -left-3 absolute hidden">
+              Sourish
+            </div>
           </div>
         </a>
         <a
           href="https://drive.google.com/file/d/1kE1OOl_GcyX9NOjGw3q7wIIDxQhryCl2/view?usp=share_link"
            rel="noreferrer" target="_blank"
         >
-          <div>
-            <img src={ll} alt=""  class="hover:scale-110 transition-all duration-500" height="100px"  width="100px"  />
+          <div class="group relative">
+            <img
+              src={ll}
+              alt=""
+              class="hover:scale-110 transition-all duration-500"
+              height="100px"
+              width="100px"
+            />
+             <div class="sm:group-hover:block -top-3 bg-green-400 p-1  rounded-lg -left-3 absolute hidden">
+             Vipin
+            </div>
           </div>
         </a>
       
@@ -130,16 +166,34 @@ function Sem3() {
           href="https://drive.google.com/file/d/1r6y42Q7BtqgovGR5z6UHpRcvjzI_UVDJ/view?usp=share_link"
            rel="noreferrer" target="_blank"
         >
-          <div>
-            <img src={ll} alt=""  class="hover:scale-110 transition-all duration-500" height="100px"  width="100px"  />
+           <div class="group relative">
+            <img
+              src={ll}
+              alt=""
+              class="hover:scale-110 transition-all duration-500"
+              height="100px"
+              width="100px"
+            />
+             <div class="sm:group-hover:block -top-3 bg-red-300 p-1  rounded-lg -left-3 absolute hidden">
+              Sourish
+            </div>
           </div>
         </a>
         <a
           href="https://drive.google.com/file/d/1k8pwyrUCiQBQpeRwf2imI7bZ_NiB6pZ-/view?usp=share_link"
            rel="noreferrer" target="_blank"
         >
-          <div>
-            <img src={ll} alt=""  class="hover:scale-110 transition-all duration-500" height="100px"  width="100px"  />
+ <div class="group relative">
+            <img
+              src={ll}
+              alt=""
+              class="hover:scale-110 transition-all duration-500"
+              height="100px"
+              width="100px"
+            />
+             <div class="sm:group-hover:block -top-3 bg-green-400 p-1  rounded-lg -left-3 absolute hidden">
+              Vipin
+            </div>
           </div>
         </a>
         
@@ -177,16 +231,34 @@ function Sem3() {
           href="https://drive.google.com/file/d/1BfwZn4qR2zpJx2Hywg4Pvh44ZaMD1K-N/view?usp=share_link"
            rel="noreferrer" target="_blank"
         >
-          <div>
-            <img src={ll} alt=""  class="hover:scale-110 transition-all duration-500" height="100px"  width="100px"  />
+           <div class="group relative">
+            <img
+              src={ll}
+              alt=""
+              class="hover:scale-110 transition-all duration-500"
+              height="100px"
+              width="100px"
+            />
+             <div class="sm:group-hover:block -top-3 bg-red-300 p-1  rounded-lg -left-3 absolute hidden">
+              Sourish
+            </div>
           </div>
         </a>
         <a
           href="https://drive.google.com/file/d/1aaDbvSzJxGV-FlOVSJNx_YL6OArVwGvl/view?usp=share_link"
            rel="noreferrer" target="_blank" class=""
         >
-          <div>
-            <img src={ll} alt=""  class="hover:scale-110 transition-all duration-500" height="100px"  width="100px"  />
+           <div class="group relative">
+            <img
+              src={ll}
+              alt=""
+              class="hover:scale-110 transition-all duration-500"
+              height="100px"
+              width="100px"
+            />
+             <div class="sm:group-hover:block -top-3 bg-yellow-300 p-1  rounded-lg -left-3 absolute hidden">
+             Saurabh
+            </div>
           </div>
         </a>
         
@@ -224,8 +296,17 @@ function Sem3() {
           href="https://drive.google.com/file/d/1YFRCaOMjqXBAhQvGeS7IbJ4u4gi-9Urm/view?usp=share_link"
            rel="noreferrer" target="_blank"
         >
-          <div>
-            <img src={ll} alt=""  class="hover:scale-110 transition-all duration-500" height="100px"  width="100px"  />
+ <div class="group relative">
+            <img
+              src={ll}
+              alt=""
+              class="hover:scale-110 transition-all duration-500"
+              height="100px"
+              width="100px"
+            />
+             <div class="sm:group-hover:block -top-3 bg-red-300 p-1  rounded-lg -left-3 absolute hidden">
+              Sourish
+            </div>
           </div>
         </a>
         
@@ -264,8 +345,17 @@ function Sem3() {
           href="https://drive.google.com/file/d/1aeEYe1dl1NuUvBh_Wd5eARhK7TrtbSqX/view?usp=share_link"
            rel="noreferrer" target="_blank"
         >
-          <div>
-            <img src={ll} alt=""  class="hover:scale-110 transition-all duration-500" height="100px"  width="100px"  />
+           <div class="group relative">
+            <img
+              src={ll}
+              alt=""
+              class="hover:scale-110 transition-all duration-500"
+              height="100px"
+              width="100px"
+            />
+             <div class="sm:group-hover:block -top-3 bg-red-300 p-1  rounded-lg -left-3 absolute hidden">
+              Sourish
+            </div>
           </div>
         </a>
         
@@ -304,8 +394,17 @@ function Sem3() {
           href="https://drive.google.com/file/d/1bOlJ_KUPqObG6CPr824vL9tpOfBkuElo/view?usp=share_link"
            rel="noreferrer" target="_blank"
         >
-          <div>
-            <img src={ll} alt=""  class="hover:scale-110 transition-all duration-500" height="100px"  width="100px"  />
+          <div class="group relative">
+            <img
+              src={ll}
+              alt=""
+              class="hover:scale-110 transition-all duration-500"
+              height="100px"
+              width="100px"
+            />
+             <div class="sm:group-hover:block -top-3 bg-yellow-300 p-1  rounded-lg -left-3 absolute hidden">
+             Saurabh
+            </div>
           </div>
         </a>
        

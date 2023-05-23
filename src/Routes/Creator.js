@@ -15,7 +15,7 @@ import sk6 from "../image/sk6.svg";
 import sk7 from "../image/sk7.svg";
 import sk8 from "../image/sk8.svg";
 import sk9 from "../image/sk9.svg";
-import wave from '../image/wave.png'
+import wave from "../image/wave.png";
 function Creator() {
   return (
     <div class="flex flex-col sm:flex-row justify-center mb-10 p-5  mt-4 space-x-1 max-w-[1100px] mx-auto shadow-2xl ">
@@ -146,7 +146,6 @@ function Creator() {
 
         <div class="flex flex-col justify-center items-center text-center my-10 mb-18 ">
           <h1 class=" text-3xl">
-
             {/* <img src={wave} alt="" /> */}
             Hi 👋, I'm Vipin Kumawat <br />A passionate
             <h1 class="text-red-700 text-4xl ">
@@ -173,15 +172,15 @@ function Creator() {
         <div>
           <h1 class="text-2xl m-1 text-center">Skills</h1>
           <div class="mt-3 grid grid-cols-5 space-x-2 sm:space-x-0  justify-evenly items-center space-y-2 mx-auto">
-            <img src={sk1} alt="" width="70px" height="70px" />
-            <img src={sk2} alt="" width="70px" height="70px" />
-            <img src={sk3} alt="" width="70px" height="70px" />
-            <img src={sk4} alt="" width="70px" height="70px" />
-            <img src={sk5} alt="" width="70px" height="70px" />
-            <img src={sk6} alt="" width="70px" height="70px" />
-            <img src={sk7} alt="" width="70px" height="70px" />
-            <img src={sk8} alt="" width="70px" height="70px" />
-            <img src={sk9} alt="" width="70px" height="70px" />
+             <a href="https://html.com/" target="_blank"> <img src={sk1} alt="" width="70px" height="70px" /></a>
+             <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"> <img src={sk2} alt="" width="70px" height="70px" /></a>
+             <a href="https://tailwindcss.com/" target="_blank"> <img src={sk3} alt="" width="70px" height="70px" /></a>
+             <a href="https://www.javascript.com/" target="_blank"> <img src={sk4} alt="" width="70px" height="70px" /></a>
+             <a href="https://react.dev/" target="_blank"> <img src={sk5} alt="" width="70px" height="70px" /></a>
+             <a href="https://redux.js.org/" target="_blank"> <img src={sk6} alt="" width="70px" height="70px" /></a> 
+             <a href="https://nodejs.org/en" target="_blank"> <img src={sk7} alt="" width="70px" height="70px" /></a>
+             <a href="https://www.mongodb.com/atlas/database" target="_blank"> <img src={sk8} alt="" width="70px" height="70px" /></a>
+             <a href="https://expressjs.com/" target="_blank"> <img src={sk9} alt="" width="70px" height="70px" /></a>
           </div>
         </div>
       </div>

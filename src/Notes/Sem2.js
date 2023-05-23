@@ -31,7 +31,7 @@ function Sem2() {
           <h1 class="absolute z-10 top-[30px] left-[40px] text-2xl  ">EM2</h1>
         </div>
         <a href="https://drive.google.com/file/d/1j-IAOJPffkvV45IAPdHUZiHFhoEgctc-/view?usp=share_link" rel="noreferrer" target="_blank">
-          <div>
+          <div class="group relative">
             <img
               src={ll}
               alt=""
@@ -39,6 +39,9 @@ function Sem2() {
               height="100px"
               width="100px"
             />
+             <div class="sm:group-hover:block -top-3 bg-green-300 p-1  rounded-lg -left-3 absolute hidden">
+              Adarsh
+            </div>
           </div>
         </a>
       </div>
@@ -70,7 +73,7 @@ function Sem2() {
           <h1 class="absolute z-10 top-[30px] left-[40px] text-2xl  ">DLD</h1>
         </div>
         <a href="https://drive.google.com/file/d/1j-CiGJV4BsmMOUBXhzR-nPxsymIDut3X/view?usp=share_link" rel="noreferrer" target="_blank">
-          <div>
+        <div class="group relative">
             <img
               src={ll}
               alt=""
@@ -78,6 +81,9 @@ function Sem2() {
               height="100px"
               width="100px"
             />
+             <div class="sm:group-hover:block -top-3 bg-green-300 p-1  rounded-lg -left-3 absolute hidden">
+              Adarsh
+            </div>
           </div>
         </a>
       </div>
@@ -109,7 +115,7 @@ function Sem2() {
           <h1 class="absolute z-10 top-[30px] left-[35px] text-2xl  ">OOPL</h1>
         </div>
         <a href="https://drive.google.com/file/d/1j4W5iOQPIBqwJgPCaa6KKTQEXVRyakvQ/view?usp=share_link" rel="noreferrer" target="_blank">
-          <div>
+        <div class="group relative">
             <img
               src={ll}
               alt=""
@@ -117,6 +123,9 @@ function Sem2() {
               height="100px"
               width="100px"
             />
+             <div class="sm:group-hover:block -top-3 bg-green-300 p-1  rounded-lg -left-3 absolute hidden">
+              Adarsh
+            </div>
           </div>
         </a>
       </div>
@@ -148,7 +157,7 @@ function Sem2() {
           <h1 class="absolute z-10 top-[30px] left-[40px] text-2xl  ">DSA</h1>
         </div>
         <a href="https://drive.google.com/drive/folders/1gcwZRSP8Anh4flMgsEb13JmGx87QT2pc?usp=share_link" rel="noreferrer" target="_blank">
-          <div>
+        <div class="group relative">
             <img
               src={ll}
               alt=""
@@ -156,6 +165,9 @@ function Sem2() {
               height="100px"
               width="100px"
             />
+             <div class="sm:group-hover:block -top-3 bg-red-300 p-1  rounded-lg -left-3 absolute hidden">
+              PPT
+            </div>
           </div>
         </a>
       </div>
@@ -189,7 +201,7 @@ function Sem2() {
           </h1>
         </div>
         <a href="https://drive.google.com/drive/folders/1hlXOawka6aBsdVE4YYCkPo20Fk48HHXU?usp=share_link" rel="noreferrer" target="_blank">
-          <div>
+        <div class="group relative">
             <img
               src={ll}
               alt=""
@@ -197,6 +209,9 @@ function Sem2() {
               height="100px"
               width="100px"
             />
+             <div class="sm:group-hover:block -top-3 bg-red-300 p-1  rounded-lg -left-3 absolute hidden">
+              PPT
+            </div>
           </div>
         </a>
       </div>
@@ -228,7 +243,7 @@ function Sem2() {
           <h1 class="absolute z-10 top-[30px] left-[50px] text-2xl  ">ES</h1>
         </div>
         <a href="https://drive.google.com/drive/folders/1hIlY8wXowu9aHptpRIi6p02_bt_zHYfS?usp=share_link" rel="noreferrer" target="_blank">
-          <div>
+        <div class="group relative">
             <img
               src={ll}
               alt=""
@@ -236,6 +251,9 @@ function Sem2() {
               height="100px"
               width="100px"
             />
+             <div class="sm:group-hover:block -top-3 bg-red-300 p-1  rounded-lg -left-3 absolute hidden">
+              PPT
+            </div>
           </div>
         </a>
       </div>
@@ -271,7 +289,7 @@ function Sem2() {
           rel="noreferrer"
           target="_blank"
         >
-          <div>
+           <div class="group relative">
             <img
               src={ll}
               alt=""
@@ -279,6 +297,9 @@ function Sem2() {
               height="100px"
               width="100px"
             />
+             <div class="sm:group-hover:block -top-3 bg-red-300 p-1  rounded-lg -left-3 absolute hidden">
+              PPT
+            </div>
           </div>
         </a>
       </div>

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Sem1() {
   return (
     <div class=" lg:w-[1200px] grid sm:grid-cols-3 grid-cols-2 space-y-5 lg:space-y-0 ml-6 lg:mx-auto lg:grid-cols-7 relative  justify-evenly  mt-8 overflow-hidden">
-      <div class="relative flex flex-col p-0 mt-[20px] lg:mt-0 space-x-6 space-y-3   ">
+      <div class="relative flex flex-col p-0 mt-[20px] mb-3 lg:mt-0 space-x-6 space-y-3   ">
         <div class="h-[120px]">
           <svg
             viewBox="0 0 349.32501220703125 225"
@@ -36,7 +36,7 @@ function Sem1() {
           rel="noreferrer"
           target="_blank"
         >
-          <div>
+          <div class="group relative">
             <img
               src={ll}
               alt=""
@@ -44,6 +44,9 @@ function Sem1() {
               height="100px"
               width="100px"
             />
+             <div class="sm:group-hover:block -top-3 bg-green-300 p-1  rounded-lg -left-3 absolute hidden">
+              Adarsh
+            </div>
           </div>
         </a>
       </div>
@@ -79,7 +82,7 @@ function Sem1() {
           rel="noreferrer"
           target="_blank"
         >
-          <div>
+          <div class=" group relative">
             <img
               src={ll}
               alt=""
@@ -87,6 +90,9 @@ function Sem1() {
               height="100px"
               width="100px"
             />
+             <div class="sm:group-hover:block -top-3 bg-green-300 p-1  rounded-lg -left-3 absolute hidden">
+              Adarsh
+            </div>
           </div>
         </a>
       </div>
@@ -122,7 +128,7 @@ function Sem1() {
           rel="noreferrer"
           target="_blank"
         >
-          <div>
+          <div class=" group relative">
             <img
               src={ll}
               alt=""
@@ -130,6 +136,9 @@ function Sem1() {
               height="100px"
               width="100px"
             />
+             <div class="sm:group-hover:block -top-3 bg-green-300 p-1  rounded-lg -left-3 absolute hidden">
+              Adarsh
+            </div>
           </div>
         </a>
       </div>
@@ -165,7 +174,7 @@ function Sem1() {
           rel="noreferrer"
           target="_blank"
         >
-          <div>
+          <div class="group relative">
             <img
               src={ll}
               alt=""
@@ -173,6 +182,9 @@ function Sem1() {
               height="100px"
               width="100px"
             />
+            <div class="sm:group-hover:block -top-3 bg-green-300 p-1  rounded-lg -left-3 absolute hidden">
+              Adarsh
+            </div>
           </div>
         </a>
       </div>
@@ -208,7 +220,7 @@ function Sem1() {
           rel="noreferrer"
           target="_blank"
         >
-          <div>
+          <div class=" group relative">
             <img
               src={ll}
               alt=""
@@ -216,6 +228,9 @@ function Sem1() {
               height="100px"
               width="100px"
             />
+            <div class=" sm:group-hover:block -top-3 -left-2 bg-red-300 p-1 rounded-md absolute hidden">
+              PPT
+            </div>
           </div>
         </a>
       </div>
@@ -251,7 +266,7 @@ function Sem1() {
           rel="noreferrer"
           target="_blank"
         >
-          <div>
+          <div class=" group relative">
             <img
               src={ll}
               alt=""
@@ -259,6 +274,9 @@ function Sem1() {
               height="100px"
               width="100px"
             />
+            <div class=" sm:group-hover:block -top-3 -left-2 bg-red-300 p-1 rounded-md absolute hidden">
+              PPT
+            </div>
           </div>
         </a>
       </div>
@@ -294,7 +312,7 @@ function Sem1() {
           rel="noreferrer"
           target="_blank"
         >
-          <div>
+          <div class=" group relative">
             <img
               src={ll}
               alt=""
@@ -302,6 +320,9 @@ function Sem1() {
               height="100px"
               width="100px"
             />
+            <div class=" sm:group-hover:block -top-3 -left-2 bg-red-300 p-1 rounded-md absolute hidden">
+              PPT
+            </div>
           </div>
         </a>
       </div>
