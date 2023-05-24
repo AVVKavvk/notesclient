@@ -46,7 +46,7 @@ function Sem1() {
       <div class="relative flex flex-col justify-center items-center text-center  w-full h-[250px] space-x-16  px-5 ">
         <div>
           <a
-            href="https://drive.google.com/file/d/1qQojkPMPcM7G-3CcUcs3IUV5gbjPVwtT/view?usp=share_link"
+            href="https://drive.google.com/file/d/1lwEkuOJDQiNHtjwgJQiXfsOiV-xC4UYq/view?usp=sharing"
             target="_blank"
           >
             <div>
