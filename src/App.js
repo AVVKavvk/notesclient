@@ -37,6 +37,7 @@ import Visitor from "./Routes/Visitor";
 import Creator from "./Routes/Creator";
 import Unavaiable from "./Routes/Unavaiable";
 import ForgetPassword from "./Routes/ForgetPassword";
+import Logout from "./Routes/Logout";
 export const TOAST_SUCCESS = "toast_success";
 export const TOAST_ERROR = "toast_error";
 function App() {
@@ -109,6 +110,7 @@ function App() {
         <Route path="/auth/visitor" element={<Visitor />} />
         <Route path="/user/creator" element={<Creator />} />
         <Route path="/user/unavail" element={<Unavaiable />} />
+        <Route path="/user/logout" element={<Logout />} />
       
 
       </Routes>

@@ -4,12 +4,13 @@ import menu from "./image/menu.svg";
 import { Dropdown } from "antd";
 import { Key_Access_Token, count_User, getItem } from "./utils/localStorage";
 import { useSelector } from "react-redux";
+import {AiOutlineLogout} from "react-icons/ai";
 
 function Navbar() {
   const a = getItem(Key_Access_Token);
   var b = useSelector((state) => state.appConfigReducer.count);
   var count = 1;
-  if (b == 0) {
+  if (b === 0) {
     count = getItem(count_User);
   } else {
     count = b;
@@ -56,7 +57,7 @@ function Navbar() {
       key: "5",
       label: (
         <Link to="/user/creator" rel="noopener noreferrer">
-          About Me
+          Founder
         </Link>
       ),
     },
@@ -84,23 +85,32 @@ function Navbar() {
           <ul class="flex sm:hidden justify-center items-center text-white gap-4 px-3">
             <>
               {a ? (
+                <>
                 <Link to="/auth/visitor" style={{ textDecoration: "none" }}>
                   <li class=" text-2xl flex justify-center items-center group ">
                     {" "}
-                    Unique Visitor{" "}
-                    <span class="text-4xl ml-4 group-hover:scale-125 transition-all duration-300    ">
+                    Users {" "}
+                    <span class="text-2xl ml-2 group-hover:scale-125 transition-all duration-300    ">
                       {count}{" "}
                     </span>
                   </li>
                 </Link>
+                <Link to="/user/logout" style={{ textDecoration: "none" }}>
+                <li class=" text-2xl relative  p-1 group rounded-md px-2 transition-all duration-200 flex justify-center items-center group ">
+                  {" "}
+                  <AiOutlineLogout/>
+                  
+                </li>
+              </Link>
+                </>
               ) : (
                 <>
-                  <li class="hover:underline hover:bg-green-600  p-2 rounded-md transition-all duration-500">
+                  <li class="   p-2 rounded-md transition-all duration-500">
                     <Link to="/auth/login" style={{ textDecoration: "none" }}>
                       Login
                     </Link>
                   </li>
-                  <li class="hover:underline   p-2 rounded-md transition-all duration-500">
+                  <li class="   p-2 rounded-md transition-all duration-500">
                     <Link to="/auth/signup" style={{ textDecoration: "none" }}>
                       SignUp
                     </Link>
@@ -138,7 +148,7 @@ function Navbar() {
 
           <li class="hover:underline hover:bg-blue-500 p-2 rounded-md transition-all duration-500">
             <Link to="/user/creator" style={{ textDecoration: "none" }}>
-              About_Me
+            Founder
             </Link>
           </li>
         </ul>
@@ -146,15 +156,30 @@ function Navbar() {
         <ul class="sm:flex hidden justify-center items-center gap-4 px-3">
           <>
             {a ? (
-              <Link to="/auth/visitor" style={{ textDecoration: "none" }}>
-                <li class=" text-2xl flex justify-center items-center group ">
+              <>
+             
+             
+                  <Link to="/auth/visitor" style={{ textDecoration: "none" }}>
+                    <li class=" text-2xl flex justify-center items-center group ">
+                      {" "}
+                      Users{" "}
+                      <span class="text-2xl ml-2 group-hover:scale-125 transition-all duration-300    ">
+                        {count}{" "}
+                      </span>
+                    </li>
+                  </Link>
+                  <Link to="/user/logout" style={{ textDecoration: "none" }}>
+                <li class=" text-2xl relative group hover:bg-green-600 p-1 hover:underline rounded-md px-2 transition-all duration-200 flex justify-center items-center group ">
                   {" "}
-                  Unique_Visitor{" "}
-                  <span class="text-4xl ml-4 group-hover:scale-125 transition-all duration-300    ">
+                 <AiOutlineLogout/>
+                  {/* <span class="text-4xl ml-4 group-hover:scale-125 transition-all duration-300    ">
                     {count}{" "}
-                  </span>
+                  </span> */}
+                  <p class="absolute text-sm hidden group-hover:flex -top-5 ">Logout </p>
                 </li>
+
               </Link>
+              </>
             ) : (
               <>
                 <li class="hover:underline hover:bg-green-600  p-2 rounded-md transition-all duration-500">
