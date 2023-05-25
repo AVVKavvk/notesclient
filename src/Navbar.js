@@ -57,7 +57,7 @@ function Navbar() {
       key: "5",
       label: (
         <Link to="/user/creator" rel="noopener noreferrer">
-          Founder
+          About Me
         </Link>
       ),
     },
@@ -148,7 +148,7 @@ function Navbar() {
 
           <li class="hover:underline hover:bg-blue-500 p-2 rounded-md transition-all duration-500">
             <Link to="/user/creator" style={{ textDecoration: "none" }}>
-            Founder
+            About_Me
             </Link>
           </li>
         </ul>
