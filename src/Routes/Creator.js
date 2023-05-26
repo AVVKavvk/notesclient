@@ -102,7 +102,7 @@ function Creator() {
             </a>
             <h1 class="text-lg m-1 text-center">BTech pursuing </h1>
             <h1 class="text-lg  text-center">
-              CGPA - <span class="ml-2"> 8.77 </span>{" "}
+              CGPA - <span class="ml-2"> 8.54 </span>{" "}
             </h1>
           </div>
           <div>
