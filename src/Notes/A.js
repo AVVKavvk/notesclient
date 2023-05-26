@@ -32,8 +32,8 @@ function A() {
       <div class="mx-auto flex flex-col justify-center items-center mt-5 mb-10 ">
         <h1  class="max-w-[500px] p-2 text-xl  sm:text-2xl text-center mb-8"> <span class="underline text-2xl sm:text-3xl mx-3"> Acknowledgement</span> for Notes</h1>
         <div class="max-w-[1000px] flex-col sm:flex-row space-y-14 sm:space-y-0 flex mx-auto justify-center items-center ">
-          <div class="flex flex-col max-h-[350px] justify-center items-center mx-auto">
-          <div class="rounded-xl flex-col flex justify-center items-center  w-[250px] h-[250px] mb-9 mt-2  ">
+          <div class="flex flex-col max-h-[400px] justify-center items-center mx-auto">
+          <div class="rounded-xl flex-col flex justify-center items-center  w-[250px] h-[260px] mb-9 mt-2  ">
           {" "}
           <a  target="_blank" href="https://i.ibb.co/yPZxNCW/mittak.jpg" >
             {" "}
@@ -47,6 +47,7 @@ function A() {
           </a>
           <h1 class="text-center text-2xl mt-2 mb-1">Sourish Mittal</h1>
           <h1 class="text-center text-xl flex justify-between  items-center">9953862637 </h1>
+          <h1 class="text-center text-xl flex justify-between  items-center">CGPA 9.49 </h1>
          
         </div>
             <div class="flex flex-col w-[120px] space-y-3  ">
@@ -103,6 +104,7 @@ function A() {
           </a>
           <h1 class="text-center text-2xl mt-2 mb-1">Saurabh Gawali</h1>
           <h1 class="text-center text-xl flex justify-between  items-center">8788377893 </h1>
+          <h1 class="text-center text-xl flex justify-between  items-center">CGPA 9.09 </h1>
          
         </div>
             <div class="flex flex-col w-[120px] space-y-3  ">
@@ -132,8 +134,8 @@ function A() {
              </div>
             </div>
           </div>
-          <div class="flex flex-col max-h-[300px]  justify-center items-center mx-auto">
-          <div class="rounded-xl flex-col flex justify-center items-center  w-[250px] h-[250px] mb-9 mt-2  ">
+          <div class="flex flex-col max-h-[320px]  justify-center items-center mx-auto">
+          <div class="rounded-xl flex-col flex justify-center items-center  w-[250px] h-[270px] mb-9 mt-2  ">
           {" "}
           <a  target="_blank" href="https://i.ibb.co/YZ5KYqR/ada.jpg" >
             {" "}
@@ -147,6 +149,7 @@ function A() {
           </a>
           <h1 class="text-center text-2xl mt-2 mb-1">Adarsh Awasthi</h1>
           <h1 class="text-center text-xl flex justify-between  items-center">8349017915 </h1>
+          <h1 class="text-center text-xl flex justify-between  items-center">CGPA 9.79 </h1>
          
         </div>
             <div class="flex flex-col w-[120px] space-y-3  ">
