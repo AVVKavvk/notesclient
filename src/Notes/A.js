@@ -52,44 +52,44 @@ function A() {
         </div>
             <div class="flex flex-col w-[120px] space-y-3  ">
               <div class="flex justify-between items-center">
-              <a  target="_blank" href="https://www.linkedin.com/in/sourish-mittal-688523226">
+              <a  target="_blank" href="https://www.linkedin.com/in/sourish-mittal-688523226" class="hover:scale-125 transition-all duration-500 ">
                 {" "}
                 <BsLinkedin />{" "}
               </a>
-              <a  target="_blank" href="https://github.com/SourishMittal">
+              <a  target="_blank" href="https://github.com/SourishMittal" class="hover:scale-125 transition-all duration-500 ">
                 {" "}
                 <FaGithubSquare />
               </a>
-              <a  target="_blank" href="https://www.instagram.com/iamsourishmittal/">
+              <a  target="_blank" href="https://www.instagram.com/iamsourishmittal/" class="hover:scale-125 transition-all duration-500 ">
                 {" "}
                 <FaInstagramSquare />
               </a>
-              <a  target="_blank" href="https://twitter.com/imsourishmittal">
+              <a  target="_blank" href="https://twitter.com/imsourishmittal" class="hover:scale-125 transition-all duration-500 ">
                 {" "}
                 <AiOutlineTwitter />
               </a>
               </div>
              <div class="flex justify-between items-center">
-             <a  target="_blank" href="https://www.snapchat.com/add/sourish.mittal?share_id=iNB27WvlkxM&locale=en-US">
+             <a  target="_blank" href="https://www.snapchat.com/add/sourish.mittal?share_id=iNB27WvlkxM&locale=en-US" class="hover:scale-125 transition-all duration-500 ">
                 {" "}
                 <FaSnapchatGhost />
               </a>
-              <a  target="_blank" href="https://www.codechef.com/users/sourish_mittal">
+              <a  target="_blank" href="https://www.codechef.com/users/sourish_mittal" class="hover:scale-125 transition-all duration-500 ">
                 {" "}
                 <SiCodechef />
               </a>
-              <a  target="_blank" href="https://codeforces.com/profile/sourish_mittal">
+              <a  target="_blank" href="https://codeforces.com/profile/sourish_mittal" class="hover:scale-125 transition-all duration-500 ">
                 {" "}
                 <SiCodeforces />
               </a>
-              <a  target="_blank" href="https://leetcode.com/sourish_mittal/">
+              <a  target="_blank" href="https://leetcode.com/sourish_mittal/" class="hover:scale-125  transition-all duration-500 ">
                 {" "}
                 <SiLeetcode />
               </a>
              </div>
             </div>
           </div>
-          <div class="flex flex-col max-h-[300px]  justify-center items-center mx-auto">
+          <div class="flex flex-col max-h-[300px]  justify-center items-center mx-auto"> 
           <div class="rounded-xl flex-col flex justify-center items-center  w-[250px] h-[250px] mb-9 mt-2  ">
           {" "}
           <a  target="_blank" href="https://i.ibb.co/t4L03C3/gawali.jpg" >
@@ -109,21 +109,21 @@ function A() {
         </div>
             <div class="flex flex-col w-[120px] space-y-3  ">
               <div class="flex justify-between items-center">
-              <a  target="_blank" href="https://www.linkedin.com/in/saurabh-gawali-34a608234">
+              <a  target="_blank" href="https://www.linkedin.com/in/saurabh-gawali-34a608234" class="hover:scale-125 transition-all duration-500 ">
                 {" "}
                 <BsLinkedin />{" "}
               </a>
              
-              <a  target="_blank" href="https://www.instagram.com/its_saurabh_9063/">
+              <a  target="_blank" href="https://www.instagram.com/its_saurabh_9063/" class="hover:scale-125 transition-all duration-500 ">
                 {" "}
                 <FaInstagramSquare />
               </a>
-              <a  target="_blank" href="https://www.codechef.com/users/gawali1212">
+              <a  target="_blank" href="https://www.codechef.com/users/gawali1212" class="hover:scale-125 transition-all duration-500 ">
                 {" "}
                 <SiCodechef />
               </a>
             
-              <a  target="_blank" href="https://leetcode.com/sg_2003/">
+              <a  target="_blank" href="https://leetcode.com/sg_2003/" class="hover:scale-125 transition-all duration-500 ">
                 {" "}
                 <SiLeetcode />
               </a>
@@ -154,24 +154,24 @@ function A() {
         </div>
             <div class="flex flex-col w-[120px] space-y-3  ">
               <div class="flex justify-between items-center">
-              <a  target="_blank" href="https://www.linkedin.com/in/adarsh-awasthi-511247255/">
+              <a  target="_blank" href="https://www.linkedin.com/in/adarsh-awasthi-511247255/" class="hover:scale-125 transition-all duration-500 ">
                 {" "}
                 <BsLinkedin />{" "}
               </a>
-              <a  target="_blank" href="https://github.com/adarshawasthi29">
+              <a  target="_blank" href="https://github.com/adarshawasthi29" class="hover:scale-125 transition-all duration-500 ">
                 {" "}
                 <FaGithubSquare />
               </a>
-              <a  target="_blank" href="https://www.instagram.com/adarshawasthi127/">
+              <a  target="_blank" href="https://www.instagram.com/adarshawasthi127/" class="hover:scale-125 transition-all duration-500 ">
                 {" "}
                 <FaInstagramSquare />
               </a>
-              <a  target="_blank" href="https://www.codechef.com/users/adarshawasthi1">
+              <a  target="_blank" href="https://www.codechef.com/users/adarshawasthi1" class="hover:scale-125 transition-all duration-500 ">
                 {" "}
                 <SiCodechef />
               </a>
             
-              <a  target="_blank" href="https://leetcode.com/adarshawasthi_29/">
+              <a  target="_blank" href="https://leetcode.com/adarshawasthi_29/" class="hover:scale-125 transition-all duration-500 ">
                 {" "}
                 <SiLeetcode />
               </a>
