@@ -29,7 +29,7 @@ function Signup() {
     if (number && isValidPhoneNumber(number)) {
       setError1("a");
     } else {
-      setError1("Phone Number Not Valid");
+      setError1("Phone Number Not Valid or please enter number without space ");
     }
     // console.log(err);
     // console.log(err1);
