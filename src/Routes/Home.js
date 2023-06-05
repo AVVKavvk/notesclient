@@ -25,7 +25,7 @@ import Footer from "./Footer";
 
 function Home() {
   const count = useSelector((state) => state.appConfigReducer.count);
-  console.log(count);
+  // console.log(count);
   const dispatch = useDispatch();
   const a = getItem(Key_Access_Token);
 

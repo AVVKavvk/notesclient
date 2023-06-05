@@ -30,7 +30,9 @@ function Creator() {
               class="w-full"
             />{" "}
           </a>
-          <h1 class="text-center text-2xl mt-2 mb-1">Vipin Kumawat</h1>
+          <h1 class="text-center text-2xl mt-2 mb-1 ">Vipin Kumawat</h1>
+
+          <a href="https://vipinkumawatportfolio.netlify.app/" target="_blank">  <h1 class="text-center text-xl text-red-700 hover:bg-red-400 hover:text-red-900 transition-all duration-500 bg-red-300 px-1 py-[1px] rounded-2xl mx-auto max-w-[100px] mb-1">Portfolio</h1> </a>
           <hr
             style={{
               height: "1px",
@@ -39,7 +41,7 @@ function Creator() {
             }}
           />
         </div>
-        <div class="flex  flex-col   space-y-2 mb-3 ">
+        <div class="flex  flex-col  space-y-2 mb-3 ">
           <div class="flex  text-center  text-2xl  space-x-4 items-center justify-start">
             <FcHome />
             <h1>Sikar, Rajasthan</h1>
